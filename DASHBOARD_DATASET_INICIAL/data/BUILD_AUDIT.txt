@@ -1,0 +1,34 @@
+DASHBOARD BUILD AUDIT
+================================================================================
+records=77099
+unique_accession_version=77099
+cds=446993
+species_final_distinct=836
+interest_records=10945
+hypothetical_cds=25086
+
+INTEREST GROUP COUNTS
+interest_group
+Other                                         66154
+HSV-1                                         10869
+CalHV-3                                          60
+Alouatta macconnelli cytomegalovirus              6
+Cebus albifrons lymphocryptovirus 1               3
+Cebus apella lymphocryptovirus 1                  3
+Alouatta seniculus cytomegalovirus                2
+Callithrix penicillata lymphocryptovirus 1        1
+Alouatta palliata cytomegalovirus                 1
+
+PROTEIN ANNOTATION CLASS COUNTS
+protein_annotation_class
+Annotated product                    419173
+Hypothetical with identifier only     20580
+Hypothetical with annotation clue      4506
+No product annotation                  2734
+
+OUTPUT SHA256
+records_dashboard.tsv.gz	fee5fcd76e59ce995c5e6954fd562ee7baeb8a6fff618ca3610b1b06891568b0
+cds_dashboard.tsv.gz	2c47da5eb2753becf77d476b31d14c18135c8e53b7003b47610f6050c8a013fa
+interest_summary.tsv	4f33c9ec35e527ba6157e5246c537956c1700af2b3550aec01ae2147bb96b8b8
+metadata_quality.tsv	5c8ffd46c056886766b6db549a42b9675c9b0d29d74b32a6ab4336480b81eecf
+dpol_flow.tsv	866983ec1250e5e3b4610a10ebe52c146c2be662277033e356992a91cc9ee962
