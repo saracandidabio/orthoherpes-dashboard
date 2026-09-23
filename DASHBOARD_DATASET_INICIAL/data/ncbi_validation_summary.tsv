@@ -1,6 +1,0 @@
-validation_type	key	local_value	ncbi_value	status	checked_at_utc	note
-taxonomy	focus_taxonomy_names	checked=14	MATCH=14	MATCH	2026-09-23T19:11:26.601564+00:00	TaxIDs/names listed in the focus validation matched NCBI current taxonomy; local archived values were not changed.
-nuccore	accession_version:focus	checked=176	MATCH=176	MATCH	2026-09-23T19:11:26.601564+00:00	Current NCBI record queried by accession root; local archived values were not changed.
-nuccore	taxid:focus	checked=176	MATCH=176	MATCH	2026-09-23T19:11:26.601564+00:00	Current NCBI TaxID matched for all focus records checked.
-nuccore	length_nt:focus	checked=176	MATCH=176	MATCH	2026-09-23T19:11:26.601564+00:00	Current NCBI length matched for all focus records checked.
-nuccore	definition:focus	v6 flagged 176/176	validator formatting artifact identified	INFO	2026-09-23T19:11:26.601564+00:00	The v6 comparison was sensitive to terminal punctuation. v6.1 validator distinguishes MATCH_FORMATTING. No local definition was overwritten; rerun v6.1 for a fresh definition status when desired.

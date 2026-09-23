@@ -1,6 +1,0 @@
-country_final	action	plot_value	reason	observed_records
-Turkiye	CANONICALIZE_FOR_AGGREGATION_AND_MAP_ONLY	Turkey	Alias inequívoco; country_final original é preservado.	12
-Zaire	MAP_HISTORICAL_GEOGRAPHY_ONLY	Democratic Republic of the Congo	Nome histórico; usado apenas para posicionamento geográfico, preservando country_final.	3
-Korea	DO_NOT_FORCE_MODERN_COUNTRY		Ambíguo; não converter automaticamente para South Korea.	36
-USSR	DO_NOT_FORCE_MODERN_COUNTRY		Entidade histórica; não atribuir a país atual sem evidência adicional.	10
-missing	TREAT_AS_MISSING		Valor sentinela; não é país disponível.	2

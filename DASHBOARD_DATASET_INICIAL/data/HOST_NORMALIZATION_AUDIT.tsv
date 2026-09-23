@@ -1,9 +1,0 @@
-metric	value	note
-host_original_distinct	1249	Rótulos originais não vazios
-host_final_distinct	972	Após regras aprovadas; host original preservado
-host_labels_changed	372	Rótulos cujo host_final difere do original
-records_affected_by_host_normalization	2527	Registros associados a rótulos alterados
-labels_truncated_at_first_semicolon	285	Metadados após primeiro ';' não entram em host_final
-records_truncated_at_first_semicolon	850	
-homo_spaiens_records_corrected	409	host_final=Homo sapiens
-capitalization_labels_changed	88	Primeiros dois termos padronizados somente quando o par é observado no próprio dataset
