@@ -1,0 +1,11 @@
+metric	value	note
+country_original_distinct	135	Rótulos originais distintos, incluindo sentinelas.
+country_current_distinct	133	Após normalizações atuais; country_final original preservado.
+country_labels_changed	5	Rótulos cujo country_current difere do original.
+records_affected_by_country_normalization	645	Registros exibidos com nome corrente no dashboard.
+turkey_to_turkiye_records	639	Turkey/Turkiye → Türkiye.
+zaire_to_drc_records	3	Zaire → Democratic Republic of the Congo.
+macedonia_to_north_macedonia_records	2	Macedonia → North Macedonia.
+cape_verde_to_cabo_verde_records	1	Cape Verde → Cabo Verde.
+ussr_preserved_records	10	Não convertido: entidade histórica sem correspondência 1:1.
+korea_preserved_records	36	Não convertido: rótulo ambíguo.

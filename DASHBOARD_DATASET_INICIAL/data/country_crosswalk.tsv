@@ -1,0 +1,136 @@
+country_original	country_current	normalization_rule	changed	n_records	note
+Turkey	Türkiye	CURRENT_UN_NAME_TURKIYE	YES	627	Nome corrente nas listas da ONU; 'Turkey' é forma anterior.
+Turkiye	Türkiye	STANDARDIZE_DIACRITIC_TURKIYE	YES	12	Padronização gráfica para a forma corrente 'Türkiye'.
+Zaire	Democratic Republic of the Congo	HISTORICAL_NAME_TO_CURRENT	YES	3	Nome alterado para Democratic Republic of the Congo em 1997.
+Macedonia	North Macedonia	HISTORICAL_SHORT_NAME_TO_CURRENT	YES	2	Forma corrente adotada após a mudança de nome para North Macedonia.
+Cape Verde	Cabo Verde	CURRENT_UN_NAME_CABO_VERDE	YES	1	Forma corrente usada pela ONU.
+Unknown	Unknown	PRESERVE_MISSING_SENTINEL	NO	32574	Valor ausente/sentinela; não é convertido em país.
+China	China	KEEP	NO	8724	
+USA	USA	KEEP	NO	5712	
+France	France	KEEP	NO	2648	
+India	India	KEEP	NO	2318	
+Brazil	Brazil	KEEP	NO	2023	
+Japan	Japan	KEEP	NO	1610	
+Poland	Poland	KEEP	NO	1413	
+Spain	Spain	KEEP	NO	1310	
+Croatia	Croatia	KEEP	NO	1104	
+Argentina	Argentina	KEEP	NO	1069	
+Germany	Germany	KEEP	NO	1017	
+Italy	Italy	KEEP	NO	928	
+Thailand	Thailand	KEEP	NO	832	
+Iran	Iran	KEEP	NO	805	
+Uganda	Uganda	KEEP	NO	783	
+United Kingdom	United Kingdom	KEEP	NO	770	
+Russia	Russia	KEEP	NO	769	
+South Korea	South Korea	KEEP	NO	670	
+Australia	Australia	KEEP	NO	647	
+Canada	Canada	KEEP	NO	506	
+South Africa	South Africa	KEEP	NO	422	
+Netherlands	Netherlands	KEEP	NO	412	
+Egypt	Egypt	KEEP	NO	368	
+Austria	Austria	KEEP	NO	342	
+Malawi	Malawi	KEEP	NO	341	
+Iraq	Iraq	KEEP	NO	303	
+Zambia	Zambia	KEEP	NO	299	
+Taiwan	Taiwan	KEEP	NO	291	
+Saudi Arabia	Saudi Arabia	KEEP	NO	280	
+Belgium	Belgium	KEEP	NO	277	
+Serbia	Serbia	KEEP	NO	258	
+Sweden	Sweden	KEEP	NO	256	
+Ireland	Ireland	KEEP	NO	248	
+Hong Kong	Hong Kong	KEEP	NO	238	
+Kenya	Kenya	KEEP	NO	215	
+Denmark	Denmark	KEEP	NO	210	
+Pakistan	Pakistan	KEEP	NO	210	
+Mexico	Mexico	KEEP	NO	201	
+Indonesia	Indonesia	KEEP	NO	180	
+Cameroon	Cameroon	KEEP	NO	151	
+Peru	Peru	KEEP	NO	145	
+Switzerland	Switzerland	KEEP	NO	106	
+Vietnam	Vietnam	KEEP	NO	105	
+Malaysia	Malaysia	KEEP	NO	104	
+Hungary	Hungary	KEEP	NO	94	
+Tunisia	Tunisia	KEEP	NO	89	
+Colombia	Colombia	KEEP	NO	79	
+Portugal	Portugal	KEEP	NO	78	
+Zimbabwe	Zimbabwe	KEEP	NO	76	
+Bangladesh	Bangladesh	KEEP	NO	72	
+Tanzania	Tanzania	KEEP	NO	70	
+Uruguay	Uruguay	KEEP	NO	70	
+Morocco	Morocco	KEEP	NO	68	
+Chile	Chile	KEEP	NO	67	
+Nigeria	Nigeria	KEEP	NO	66	
+Cuba	Cuba	KEEP	NO	61	
+Myanmar	Myanmar	KEEP	NO	60	
+Finland	Finland	KEEP	NO	56	
+French Guiana	French Guiana	KEEP	NO	56	
+Ghana	Ghana	KEEP	NO	56	
+Iceland	Iceland	KEEP	NO	55	
+Slovakia	Slovakia	KEEP	NO	54	
+Slovenia	Slovenia	KEEP	NO	51	
+Côte d'Ivoire	Côte d'Ivoire	KEEP	NO	46	
+Laos	Laos	KEEP	NO	46	
+Norway	Norway	KEEP	NO	45	
+Czechia	Czechia	KEEP	NO	44	
+Saint Kitts and Nevis	Saint Kitts and Nevis	KEEP	NO	43	
+Democratic Republic of the Congo	Democratic Republic of the Congo	KEEP	NO	40	
+Greece	Greece	KEEP	NO	39	
+Gabon	Gabon	KEEP	NO	37	
+Ethiopia	Ethiopia	KEEP	NO	36	
+Israel	Israel	KEEP	NO	36	
+Korea	Korea	PRESERVE_AMBIGUOUS_HISTORICAL	NO	36	Rótulo ambíguo; não é possível inferir de modo seguro Republic of Korea vs DPRK apenas pelo texto.
+New Zealand	New Zealand	KEEP	NO	34	
+Puerto Rico	Puerto Rico	KEEP	NO	30	
+Vanuatu	Vanuatu	KEEP	NO	30	
+Guinea-Bissau	Guinea-Bissau	KEEP	NO	25	
+Mongolia	Mongolia	KEEP	NO	22	
+Rwanda	Rwanda	KEEP	NO	22	
+Mali	Mali	KEEP	NO	21	
+Republic of the Congo	Republic of the Congo	KEEP	NO	21	
+Singapore	Singapore	KEEP	NO	20	
+Sao Tome and Principe	Sao Tome and Principe	KEEP	NO	18	
+Cambodia	Cambodia	KEEP	NO	17	
+Gambia	Gambia	KEEP	NO	17	
+Georgia	Georgia	KEEP	NO	17	
+Ecuador	Ecuador	KEEP	NO	16	
+Papua New Guinea	Papua New Guinea	KEEP	NO	13	
+Senegal	Senegal	KEEP	NO	12	
+Botswana	Botswana	KEEP	NO	11	
+Madagascar	Madagascar	KEEP	NO	11	
+New Caledonia	New Caledonia	KEEP	NO	11	
+Haiti	Haiti	KEEP	NO	10	
+Sudan	Sudan	KEEP	NO	10	
+USSR	USSR	PRESERVE_AMBIGUOUS_HISTORICAL	NO	10	Entidade histórica sem correspondência 1:1 com um único país atual; preservada.
+Belarus	Belarus	KEEP	NO	9	
+Costa Rica	Costa Rica	KEEP	NO	8	
+Namibia	Namibia	KEEP	NO	8	
+Philippines	Philippines	KEEP	NO	8	
+Guinea	Guinea	KEEP	NO	7	
+Martinique	Martinique	KEEP	NO	7	
+Jamaica	Jamaica	KEEP	NO	6	
+Kazakhstan	Kazakhstan	KEEP	NO	6	
+Mauritius	Mauritius	KEEP	NO	6	
+Nicaragua	Nicaragua	KEEP	NO	6	
+Afghanistan	Afghanistan	KEEP	NO	5	
+Bolivia	Bolivia	KEEP	NO	5	
+Bulgaria	Bulgaria	KEEP	NO	5	
+Greenland	Greenland	KEEP	NO	5	
+Sri Lanka	Sri Lanka	KEEP	NO	5	
+Ukraine	Ukraine	KEEP	NO	5	
+Central African Republic	Central African Republic	KEEP	NO	4	
+Solomon Islands	Solomon Islands	KEEP	NO	4	
+Algeria	Algeria	KEEP	NO	3	
+Barbados	Barbados	KEEP	NO	3	
+Bosnia and Herzegovina	Bosnia and Herzegovina	KEEP	NO	3	
+Cayman Islands	Cayman Islands	KEEP	NO	3	
+Angola	Angola	KEEP	NO	2	
+Kuwait	Kuwait	KEEP	NO	2	
+Kyrgyzstan	Kyrgyzstan	KEEP	NO	2	
+missing	missing	PRESERVE_MISSING_SENTINEL	NO	2	Valor ausente/sentinela; não é convertido em país.
+Bahamas	Bahamas	KEEP	NO	1	
+Grenada	Grenada	KEEP	NO	1	
+Guatemala	Guatemala	KEEP	NO	1	
+Libya	Libya	KEEP	NO	1	
+Luxembourg	Luxembourg	KEEP	NO	1	
+Panama	Panama	KEEP	NO	1	
+Wallis and Futuna	Wallis and Futuna	KEEP	NO	1	

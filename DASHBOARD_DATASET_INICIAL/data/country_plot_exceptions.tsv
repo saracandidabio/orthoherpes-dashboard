@@ -1,0 +1,10 @@
+country_final	action	plot_value	reason	observed_records
+Turkey	CURRENT_UN_NAME_TURKIYE	Türkiye	Nome corrente nas listas da ONU; 'Turkey' é forma anterior.	627
+Turkiye	STANDARDIZE_DIACRITIC_TURKIYE	Türkiye	Padronização gráfica para a forma corrente 'Türkiye'.	12
+Zaire	HISTORICAL_NAME_TO_CURRENT	Democratic Republic of the Congo	Nome alterado para Democratic Republic of the Congo em 1997.	3
+Macedonia	HISTORICAL_SHORT_NAME_TO_CURRENT	North Macedonia	Forma corrente adotada após a mudança de nome para North Macedonia.	2
+Cape Verde	CURRENT_UN_NAME_CABO_VERDE	Cabo Verde	Forma corrente usada pela ONU.	1
+Unknown	PRESERVE_MISSING_SENTINEL		Valor ausente/sentinela; não é convertido em país.	32574
+Korea	PRESERVE_AMBIGUOUS_HISTORICAL		Rótulo ambíguo; não é possível inferir de modo seguro Republic of Korea vs DPRK apenas pelo texto.	36
+USSR	PRESERVE_AMBIGUOUS_HISTORICAL		Entidade histórica sem correspondência 1:1 com um único país atual; preservada.	10
+missing	PRESERVE_MISSING_SENTINEL		Valor ausente/sentinela; não é convertido em país.	2

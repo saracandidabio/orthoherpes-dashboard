@@ -1,0 +1,1250 @@
+host_original	records	species_final_distinct	interest_group_distinct	host_final	normalization_rule	changed	host_group	curation_note
+Homo sapiens	22041	17	2	Homo sapiens	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus	1789	5	1	Gallus gallus	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus	1181	12	1	Elephas maximus	UNCHANGED	NO		Mantido sem alteração.
+swine	926	6	1	swine	UNCHANGED	NO		Mantido sem alteração.
+chicken	913	3	1	chicken	UNCHANGED	NO		Mantido sem alteração.
+horse	796	10	1	horse	UNCHANGED	NO		Mantido sem alteração.
+Equus caballus	778	7	1	Equus caballus	UNCHANGED	NO		Mantido sem alteração.
+Bos taurus	648	9	1	Bos taurus	UNCHANGED	NO		Mantido sem alteração.
+Homo spaiens	409	1	1	Homo sapiens	FIX_HOMO_SPAIENS_TO_HOMO_SAPIENS	YES		Padronização aprovada pelo usuário em 2026-09-23.
+equine	387	7	1	equine	UNCHANGED	NO		Mantido sem alteração.
+Sus scrofa	353	3	1	Sus scrofa	UNCHANGED	NO		Mantido sem alteração.
+Macaca mulatta	297	6	1	Macaca mulatta	UNCHANGED	NO		Mantido sem alteração.
+pig	294	3	1	pig	UNCHANGED	NO		Mantido sem alteração.
+cattle	294	7	1	cattle	UNCHANGED	NO		Mantido sem alteração.
+Felis catus	285	3	1	Felis catus	UNCHANGED	NO		Mantido sem alteração.
+red deer	206	2	1	Red deer	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male	195	6	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Chelonia mydas	192	1	1	Chelonia mydas	UNCHANGED	NO		Mantido sem alteração.
+bovine	188	9	1	bovine	UNCHANGED	NO		Mantido sem alteração.
+Loxodonta africana	177	11	1	Loxodonta africana	UNCHANGED	NO		Mantido sem alteração.
+duck	176	1	1	duck	UNCHANGED	NO		Mantido sem alteração.
+dog	137	2	1	dog	UNCHANGED	NO		Mantido sem alteração.
+domestic cats	130	1	1	Domestic cats	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+porcine	127	2	1	porcine	UNCHANGED	NO		Mantido sem alteração.
+fallow deer	120	1	1	Fallow deer	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+domestic cat	114	2	1	Domestic cat	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Chicken	110	2	1	Chicken	UNCHANGED	NO		Mantido sem alteração.
+Canis lupus familiaris	89	2	1	Canis lupus familiaris	UNCHANGED	NO		Mantido sem alteração.
+Macaca fascicularis	88	11	1	Macaca fascicularis	UNCHANGED	NO		Mantido sem alteração.
+mule deer	87	1	1	Mule deer	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus asinus breed Pantesco	83	2	1	Equus asinus breed Pantesco	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; female	81	5	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bubalus bubalis	73	5	1	Bubalus bubalis	UNCHANGED	NO		Mantido sem alteração.
+Equus ferus caballus	71	5	1	Equus ferus caballus	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; mononucleosis patient	70	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+domestic pig	67	2	1	Domestic pig	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+thoroughbred horse	66	2	1	Thoroughbred horse	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Lepidochelys olivacea	65	1	1	Lepidochelys olivacea	UNCHANGED	NO		Mantido sem alteração.
+Mus musculus	64	7	1	Mus musculus	UNCHANGED	NO		Mantido sem alteração.
+Halichoerus grypus	62	1	1	Halichoerus grypus	UNCHANGED	NO		Mantido sem alteração.
+sheep	60	5	1	sheep	UNCHANGED	NO		Mantido sem alteração.
+Aborted fetus (Yili horse)	59	2	1	Aborted fetus (Yili horse)	UNCHANGED	NO		Mantido sem alteração.
+Bovine	57	4	1	Bovine	UNCHANGED	NO		Mantido sem alteração.
+Capra hircus	55	4	1	Capra hircus	UNCHANGED	NO		Mantido sem alteração.
+cow	53	3	1	cow	UNCHANGED	NO		Mantido sem alteração.
+Stenella coeruleoalba	52	11	1	Stenella coeruleoalba	UNCHANGED	NO		Mantido sem alteração.
+Callithrix	52	2	2	Callithrix	UNCHANGED	NO		Mantido sem alteração.
+Panthera tigris altaica	52	1	1	Panthera tigris altaica	UNCHANGED	NO		Mantido sem alteração.
+roe deer	50	2	1	Roe deer	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Aborted foal	49	4	1	Aborted foal	UNCHANGED	NO		Mantido sem alteração.
+Pteropus sp.	47	5	1	Pteropus sp.	UNCHANGED	NO		Mantido sem alteração.
+cat	45	3	1	cat	UNCHANGED	NO		Mantido sem alteração.
+Chlorocebus sabaeus	43	4	2	Chlorocebus sabaeus	UNCHANGED	NO		Mantido sem alteração.
+Oryctolagus cuniculus algirus	42	2	1	Oryctolagus cuniculus algirus	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus indicus	41	1	1	Elephas maximus indicus	UNCHANGED	NO		Mantido sem alteração.
+goat	40	4	1	goat	UNCHANGED	NO		Mantido sem alteração.
+Ovis aries	40	3	1	Ovis aries	UNCHANGED	NO		Mantido sem alteração.
+wild boar	39	4	1	Wild boar	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens (hematopoietic stem cell transplant recipient)	39	1	1	Homo sapiens (hematopoietic stem cell transplant recipient)	UNCHANGED	NO		Mantido sem alteração.
+donkey	38	5	1	donkey	UNCHANGED	NO		Mantido sem alteração.
+white-tailed deer	37	2	1	White-tailed deer	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Desmodus rotundus	36	9	1	Desmodus rotundus	UNCHANGED	NO		Mantido sem alteração.
+Ovibos moschatus	36	1	1	Ovibos moschatus	UNCHANGED	NO		Mantido sem alteração.
+Pig	35	2	1	Pig	UNCHANGED	NO		Mantido sem alteração.
+Meleagris gallopavo	33	2	1	Meleagris gallopavo	UNCHANGED	NO		Mantido sem alteração.
+Rangifer tarandus	33	2	1	Rangifer tarandus	UNCHANGED	NO		Mantido sem alteração.
+Sheldrake duck	33	1	1	Sheldrake duck	UNCHANGED	NO		Mantido sem alteração.
+backyard chicken	32	1	1	Backyard chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Rhinolophus ferrumequinum	32	7	1	Rhinolophus ferrumequinum	UNCHANGED	NO		Mantido sem alteração.
+turkey	32	3	1	turkey	UNCHANGED	NO		Mantido sem alteração.
+domestic chicken (Gallus gallus domesticus)	31	1	1	domestic chicken (Gallus gallus domesticus)	UNCHANGED	NO		Mantido sem alteração.
+Pteropus vampyrus	31	2	1	Pteropus vampyrus	UNCHANGED	NO		Mantido sem alteração.
+buffalo	31	4	1	buffalo	UNCHANGED	NO		Mantido sem alteração.
+fox	30	1	1	fox	UNCHANGED	NO		Mantido sem alteração.
+feline	29	1	1	feline	UNCHANGED	NO		Mantido sem alteração.
+Martes americana	29	9	1	Martes americana	UNCHANGED	NO		Mantido sem alteração.
+Indotestudo elongata	29	2	1	Indotestudo elongata	UNCHANGED	NO		Mantido sem alteração.
+Macronycteris vittatus	29	2	1	Macronycteris vittatus	UNCHANGED	NO		Mantido sem alteração.
+layer chicken	28	2	1	Layer chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Gorilla beringei beringei	28	6	1	Gorilla beringei beringei	UNCHANGED	NO		Mantido sem alteração.
+Sus scrofa (wild boar)	28	1	1	Sus scrofa (wild boar)	UNCHANGED	NO		Mantido sem alteração.
+Saimiri boliviensis boliviensis	26	5	1	Saimiri boliviensis boliviensis	UNCHANGED	NO		Mantido sem alteração.
+Rangifer tarandus tarandus (reindeer)	26	2	1	Rangifer tarandus tarandus (reindeer)	UNCHANGED	NO		Mantido sem alteração.
+Mastomys natalensis	26	4	1	Mastomys natalensis	UNCHANGED	NO		Mantido sem alteração.
+felis catus	26	1	1	Felis catus	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+mink	25	1	1	mink	UNCHANGED	NO		Mantido sem alteração.
+Tursiops truncatus	25	12	1	Tursiops truncatus	UNCHANGED	NO		Mantido sem alteração.
+Clethrionomys glareolus	25	2	1	Clethrionomys glareolus	UNCHANGED	NO		Mantido sem alteração.
+Rattus norvegicus	24	3	1	Rattus norvegicus	UNCHANGED	NO		Mantido sem alteração.
+Arabian thoroughbred horse	24	2	1	Arabian thoroughbred horse	UNCHANGED	NO		Mantido sem alteração.
+Apodemus flavicollis	24	4	1	Apodemus flavicollis	UNCHANGED	NO		Mantido sem alteração.
+Thoroughbred horse	23	2	1	Thoroughbred horse	UNCHANGED	NO		Mantido sem alteração.
+Pongo pygmaeus	22	7	1	Pongo pygmaeus	UNCHANGED	NO		Mantido sem alteração.
+Mule duck	21	1	1	Mule duck	UNCHANGED	NO		Mantido sem alteração.
+Layer	21	1	1	Layer	UNCHANGED	NO		Mantido sem alteração.
+Galus gallus	21	1	1	Galus gallus	UNCHANGED	NO		Mantido sem alteração.
+Canis lupus familiaris (domestic dog)	21	1	1	Canis lupus familiaris (domestic dog)	UNCHANGED	NO		Mantido sem alteração.
+canine	20	3	1	canine	UNCHANGED	NO		Mantido sem alteração.
+Caretta caretta	20	1	1	Caretta caretta	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; sex: male	20	3	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Gyps indicus	19	1	1	Gyps indicus	UNCHANGED	NO		Mantido sem alteração.
+Megaptera novaeangliae	19	5	1	Megaptera novaeangliae	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus breed white leghorn	19	1	1	Gallus gallus breed white leghorn	UNCHANGED	NO		Mantido sem alteração.
+Tadarida brasiliensis	19	4	1	Tadarida brasiliensis	UNCHANGED	NO		Mantido sem alteração.
+Columba livia domestica (Domestic pigeon)	19	1	1	Columba livia domestica (Domestic pigeon)	UNCHANGED	NO		Mantido sem alteração.
+Muscovy duck	18	1	1	Muscovy duck	UNCHANGED	NO		Mantido sem alteração.
+Pan troglodytes	18	12	1	Pan troglodytes	UNCHANGED	NO		Mantido sem alteração.
+yak	18	1	1	yak	UNCHANGED	NO		Mantido sem alteração.
+Yili horse	18	2	1	Yili horse	UNCHANGED	NO		Mantido sem alteração.
+Testudo hermanni	18	1	1	Testudo hermanni	UNCHANGED	NO		Mantido sem alteração.
+plains zebra	18	2	1	Plains zebra	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Buffalo	17	1	1	Buffalo	UNCHANGED	NO		Mantido sem alteração.
+Macaca fuscata	17	4	1	Macaca fuscata	UNCHANGED	NO		Mantido sem alteração.
+Phoca vitulina	17	4	1	Phoca vitulina	UNCHANGED	NO		Mantido sem alteração.
+Rhinolophus pusillus	17	1	1	Rhinolophus pusillus	UNCHANGED	NO		Mantido sem alteração.
+Delphinus delphis	17	5	1	Delphinus delphis	UNCHANGED	NO		Mantido sem alteração.
+broiler chicken	16	2	1	Broiler chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Helarctus malayanus (sun bear)	16	1	1	Helarctus malayanus (sun bear)	UNCHANGED	NO		Mantido sem alteração.
+Psittacidae	16	1	1	Psittacidae	UNCHANGED	NO		Mantido sem alteração.
+layers	15	1	1	layers	UNCHANGED	NO		Mantido sem alteração.
+elephant	15	1	1	elephant	UNCHANGED	NO		Mantido sem alteração.
+Mus domesticus	14	1	1	Mus domesticus	UNCHANGED	NO		Mantido sem alteração.
+Elephant	14	1	1	Elephant	UNCHANGED	NO		Mantido sem alteração.
+Papio sp.	14	2	1	Papio sp.	UNCHANGED	NO		Mantido sem alteração.
+English thoroughbred horse	14	2	1	English thoroughbred horse	UNCHANGED	NO		Mantido sem alteração.
+sea lion	13	2	1	Sea lion	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+commercial chickens	13	1	1	Commercial chickens	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Setonix brachyurus	13	1	1	Setonix brachyurus	UNCHANGED	NO		Mantido sem alteração.
+Saimiri sciureus	13	4	1	Saimiri sciureus	UNCHANGED	NO		Mantido sem alteração.
+Layer chicken	13	2	1	Layer chicken	UNCHANGED	NO		Mantido sem alteração.
+foal	13	3	1	foal	UNCHANGED	NO		Mantido sem alteração.
+Arabian horse	12	4	1	Arabian horse	UNCHANGED	NO		Mantido sem alteração.
+Felis sp.	12	1	1	Felis sp.	UNCHANGED	NO		Mantido sem alteração.
+racoondog	12	1	1	racoondog	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus domesticus	12	2	1	Gallus gallus domesticus	UNCHANGED	NO		Mantido sem alteração.
+pigs	11	1	1	pigs	UNCHANGED	NO		Mantido sem alteração.
+hunting dog	11	1	1	Hunting dog	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Stenella coeruleoalba; male	11	1	1	Stenella coeruleoalba	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus grevyi	11	2	1	Equus grevyi	UNCHANGED	NO		Mantido sem alteração.
+Sika deer (Cervus nippon)	11	2	1	Sika deer (Cervus nippon)	UNCHANGED	NO		Mantido sem alteração.
+chicken; breed: layer	10	1	1	chicken	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Testudo horsfieldii	10	2	1	Testudo horsfieldii	UNCHANGED	NO		Mantido sem alteração.
+Sus scrofa domesticus	10	1	1	Sus scrofa domesticus	UNCHANGED	NO		Mantido sem alteração.
+Molossus molossus	10	4	1	Molossus molossus	UNCHANGED	NO		Mantido sem alteração.
+Lepus granatensis	10	2	1	Lepus granatensis	UNCHANGED	NO		Mantido sem alteração.
+Macaca nemestrina	10	4	1	Macaca nemestrina	UNCHANGED	NO		Mantido sem alteração.
+Pan troglodytes troglodytes	10	3	1	Pan troglodytes troglodytes	UNCHANGED	NO		Mantido sem alteração.
+tiger	10	2	1	tiger	UNCHANGED	NO		Mantido sem alteração.
+wild mice	10	1	1	Wild mice	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Dobsonia moluccensi	10	1	1	Dobsonia moluccensi	UNCHANGED	NO		Mantido sem alteração.
+Cercopithecus aethiops	10	2	1	Cercopithecus aethiops	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus breed broiler	10	1	1	Gallus gallus breed broiler	UNCHANGED	NO		Mantido sem alteração.
+wolf	10	1	1	wolf	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus breed layer	9	1	1	Gallus gallus breed layer	UNCHANGED	NO		Mantido sem alteração.
+Saimiri sp.; female	9	4	1	Saimiri sp.	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Gorilla gorilla gorilla	9	3	1	Gorilla gorilla gorilla	UNCHANGED	NO		Mantido sem alteração.
+Homo Sapiens 2 months old boy	9	1	1	Homo sapiens 2 months old boy	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Holstein cattle	9	1	1	Holstein cattle	UNCHANGED	NO		Mantido sem alteração.
+Psittacula krameri	9	2	1	Psittacula krameri	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; nasopharyngeal carcinoma patient	9	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Turdus philomelos	9	2	1	Turdus philomelos	UNCHANGED	NO		Mantido sem alteração.
+Ardops nichollsi	9	1	1	Ardops nichollsi	UNCHANGED	NO		Mantido sem alteração.
+Eidolon dupraenum	9	1	1	Eidolon dupraenum	UNCHANGED	NO		Mantido sem alteração.
+cheetah	9	1	1	cheetah	UNCHANGED	NO		Mantido sem alteração.
+Connochaetes taurinus	9	1	1	Connochaetes taurinus	UNCHANGED	NO		Mantido sem alteração.
+Stenella frontalis	9	2	1	Stenella frontalis	UNCHANGED	NO		Mantido sem alteração.
+Felis domesticus breed Van cat	8	1	1	Felis domesticus breed Van cat	UNCHANGED	NO		Mantido sem alteração.
+Vero cell line	8	1	1	Vero cell line	UNCHANGED	NO		Mantido sem alteração.
+Columba livia	8	1	1	Columba livia	UNCHANGED	NO		Mantido sem alteração.
+Pudu puda	8	3	1	Pudu puda	UNCHANGED	NO		Mantido sem alteração.
+chicken breed brolier	8	1	1	chicken breed brolier	UNCHANGED	NO		Mantido sem alteração.
+layer chickens	8	1	1	Layer chickens	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+vaccinated Indian native punjab broiler chicken breed	8	1	1	vaccinated Indian native punjab broiler chicken breed	UNCHANGED	NO		Mantido sem alteração.
+domestic swine	8	1	1	Domestic swine	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+water buffalo	8	3	1	Water buffalo	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+calf	8	3	1	calf	UNCHANGED	NO		Mantido sem alteração.
+Tadarida teniotis	8	5	1	Tadarida teniotis	UNCHANGED	NO		Mantido sem alteração.
+Alces alces	8	2	1	Alces alces	UNCHANGED	NO		Mantido sem alteração.
+milch cow	8	1	1	Milch cow	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+beef cattle	8	1	1	Beef cattle	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+indigenous chicken	7	1	1	Indigenous chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Kirk's dik-dik	7	2	1	Kirk's dik-dik	UNCHANGED	NO		Mantido sem alteração.
+Alouatta	7	2	2	Alouatta	UNCHANGED	NO		Mantido sem alteração.
+Odocoileus hemionus	7	3	1	Odocoileus hemionus	UNCHANGED	NO		Mantido sem alteração.
+Tadarida brasiliensis (bat)	7	4	1	Tadarida brasiliensis (bat)	UNCHANGED	NO		Mantido sem alteração.
+South China tiger	7	2	1	South China tiger	UNCHANGED	NO		Mantido sem alteração.
+piglet	7	1	1	piglet	UNCHANGED	NO		Mantido sem alteração.
+pigeon	7	1	1	pigeon	UNCHANGED	NO		Mantido sem alteração.
+Gallus domesticus	7	2	1	Gallus domesticus	UNCHANGED	NO		Mantido sem alteração.
+Rousettus aegyptiacus	7	5	1	Rousettus aegyptiacus	UNCHANGED	NO		Mantido sem alteração.
+Gallus	7	1	1	Gallus	UNCHANGED	NO		Mantido sem alteração.
+Connochaetes taurinus taurinus	7	1	1	Connochaetes taurinus taurinus	UNCHANGED	NO		Mantido sem alteração.
+Hipposideros larvatus	7	1	1	Hipposideros larvatus	UNCHANGED	NO		Mantido sem alteração.
+Myotis davidii	7	2	1	Myotis davidii	UNCHANGED	NO		Mantido sem alteração.
+zebra	7	2	1	zebra	UNCHANGED	NO		Mantido sem alteração.
+Equus asinus	7	4	1	Equus asinus	UNCHANGED	NO		Mantido sem alteração.
+Amazona aestiva	7	2	1	Amazona aestiva	UNCHANGED	NO		Mantido sem alteração.
+Tadarida brasiliensis bat	6	1	1	Tadarida brasiliensis bat	UNCHANGED	NO		Mantido sem alteração.
+vaccinated Indian Native Punjab Broiler Chicken breed	6	1	1	vaccinated Indian Native Punjab Broiler Chicken breed	UNCHANGED	NO		Mantido sem alteração.
+Aotus nancymaae	6	1	1	Aotus nancymaae	UNCHANGED	NO		Mantido sem alteração.
+Oryctolagus cuniculus cuniculus	6	2	1	Oryctolagus cuniculus cuniculus	UNCHANGED	NO		Mantido sem alteração.
+Taihang Chicken	6	1	1	Taihang chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arctocephalus australis	6	1	1	Arctocephalus australis	UNCHANGED	NO		Mantido sem alteração.
+Miniopterus schreibersii	6	4	1	Miniopterus schreibersii	UNCHANGED	NO		Mantido sem alteração.
+wild ass	6	1	1	Wild ass	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Loxodonta africana (African elephant)	6	1	1	Loxodonta africana (African elephant)	UNCHANGED	NO		Mantido sem alteração.
+Lynx rufus	6	2	1	Lynx rufus	UNCHANGED	NO		Mantido sem alteração.
+Pan paniscus	6	2	1	Pan paniscus	UNCHANGED	NO		Mantido sem alteração.
+Macaca fuscata fuscata	6	1	1	Macaca fuscata fuscata	UNCHANGED	NO		Mantido sem alteração.
+dorcas gazelle	6	2	1	Dorcas gazelle	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Pan troglodytes verus	6	4	1	Pan troglodytes verus	UNCHANGED	NO		Mantido sem alteração.
+Aotus nancymaae; sex: female	6	2	1	Aotus nancymaae	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+poultry	6	1	1	poultry	UNCHANGED	NO		Mantido sem alteração.
+Sturnira angeli	6	2	1	Sturnira angeli	UNCHANGED	NO		Mantido sem alteração.
+Erythrocebus patas	6	2	1	Erythrocebus patas	UNCHANGED	NO		Mantido sem alteração.
+olive ridley turtle Lo	6	1	1	Olive ridley turtle Lo	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Domestic cat	6	2	1	Domestic cat	UNCHANGED	NO		Mantido sem alteração.
+Tursiops truncatus (Atlantic bottlenose dolphin)	6	4	1	Tursiops truncatus (Atlantic bottlenose dolphin)	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas (beluga whale)	6	2	1	Delphinapterus leucas (beluga whale)	UNCHANGED	NO		Mantido sem alteração.
+Ursus maritimus	6	1	1	Ursus maritimus	UNCHANGED	NO		Mantido sem alteração.
+Rattus rattus	6	2	1	Rattus rattus	UNCHANGED	NO		Mantido sem alteração.
+Chelonia mydas (green turtle)	6	2	1	Chelonia mydas (green turtle)	UNCHANGED	NO		Mantido sem alteração.
+green turtle Cm	6	1	1	Green turtle Cm	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+cow; female	6	1	1	cow	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Canis familiaris	6	2	1	Canis familiaris	UNCHANGED	NO		Mantido sem alteração.
+Panthera tigris	6	1	1	Panthera tigris	UNCHANGED	NO		Mantido sem alteração.
+Myodes glareolus	6	4	1	Myodes glareolus	UNCHANGED	NO		Mantido sem alteração.
+Urocitellus richardsonii	6	1	1	Urocitellus richardsonii	UNCHANGED	NO		Mantido sem alteração.
+Rangifer tarandus (reindeer)	6	1	1	Rangifer tarandus (reindeer)	UNCHANGED	NO		Mantido sem alteração.
+bull; sex: male	6	1	1	bull	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Prionailurus bengalensis euptilurus	6	1	1	Prionailurus bengalensis euptilurus	UNCHANGED	NO		Mantido sem alteração.
+Porcine	6	1	1	Porcine	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; female; 8 years old	6	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+chicken; breed: Layer	6	1	1	chicken	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+broilers, layers	6	1	1	broilers, layers	UNCHANGED	NO		Mantido sem alteração.
+Cervus nippon	6	1	1	Cervus nippon	UNCHANGED	NO		Mantido sem alteração.
+Bos indicus	6	1	1	Bos indicus	UNCHANGED	NO		Mantido sem alteração.
+Cynomys ludovicianus (black-tailed prairie dog)	6	1	1	Cynomys ludovicianus (black-tailed prairie dog)	UNCHANGED	NO		Mantido sem alteração.
+Sapajus sp.; female	6	3	3	Sapajus sp.	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Monodon monoceros	6	1	1	Monodon monoceros	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus breed Layer	6	1	1	Gallus gallus breed Layer	UNCHANGED	NO		Mantido sem alteração.
+Mandrillus sphinx	5	5	1	Mandrillus sphinx	UNCHANGED	NO		Mantido sem alteração.
+Lepus europaeus	5	1	1	Lepus europaeus	UNCHANGED	NO		Mantido sem alteração.
+indigenous duck	5	1	1	Indigenous duck	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+vaccinated Indian native aseel chicken breed	5	1	1	vaccinated Indian native aseel chicken breed	UNCHANGED	NO		Mantido sem alteração.
+turtle	5	1	1	turtle	UNCHANGED	NO		Mantido sem alteração.
+Aotus nancymaae; sex: male	5	2	1	Aotus nancymaae	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bubalus bubalis (Northern territory buffalo)	5	1	1	Bubalus bubalis (Northern territory buffalo)	UNCHANGED	NO		Mantido sem alteração.
+Arctocephalus gazella	5	3	1	Arctocephalus gazella	UNCHANGED	NO		Mantido sem alteração.
+Aratinga leucophthalmus	5	1	1	Aratinga leucophthalmus	UNCHANGED	NO		Mantido sem alteração.
+Indian rhinoceros	5	1	1	Indian rhinoceros	UNCHANGED	NO		Mantido sem alteração.
+Eptesicus isabellinus	5	3	1	Eptesicus isabellinus	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; newborn	5	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Pithecia pithecia	5	2	1	Pithecia pithecia	UNCHANGED	NO		Mantido sem alteração.
+Capreolus capreolus	5	2	1	Capreolus capreolus	UNCHANGED	NO		Mantido sem alteração.
+Cervus canadensis	5	4	1	Cervus canadensis	UNCHANGED	NO		Mantido sem alteração.
+Cavia porcellus	5	2	1	Cavia porcellus	UNCHANGED	NO		Mantido sem alteração.
+bull	5	2	1	bull	UNCHANGED	NO		Mantido sem alteração.
+bull; male	5	1	1	bull	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Gallus gallus; breed: layer chicken	5	1	1	Gallus gallus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Saguinus midas	5	1	1	Saguinus midas	UNCHANGED	NO		Mantido sem alteração.
+Felis catus; Tekir	5	1	1	Felis catus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Rattus norvegicus (brown rat)	5	4	1	Rattus norvegicus (brown rat)	UNCHANGED	NO		Mantido sem alteração.
+Chelonia mydas (green sea turtle)	5	2	1	Chelonia mydas (green sea turtle)	UNCHANGED	NO		Mantido sem alteração.
+Gorilla gorilla	5	5	1	Gorilla gorilla	UNCHANGED	NO		Mantido sem alteração.
+Sciurus vulgaris	5	1	1	Sciurus vulgaris	UNCHANGED	NO		Mantido sem alteração.
+Bos indicus x Bos taurus	5	2	1	Bos indicus x Bos taurus	UNCHANGED	NO		Mantido sem alteração.
+Lepidochelys kempii	5	1	1	Lepidochelys kempii	UNCHANGED	NO		Mantido sem alteração.
+Myotis sp.	5	2	1	Myotis sp.	UNCHANGED	NO		Mantido sem alteração.
+Horse-Native-breed	5	1	1	Horse-Native-breed	UNCHANGED	NO		Mantido sem alteração.
+cow; sex: female	5	1	1	cow	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+dairy cow	5	1	1	Dairy cow	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Erinaceus europaeus	5	1	1	Erinaceus europaeus	UNCHANGED	NO		Mantido sem alteração.
+Apodemus sylvaticus	5	3	1	Apodemus sylvaticus	UNCHANGED	NO		Mantido sem alteração.
+ovine	5	1	1	ovine	UNCHANGED	NO		Mantido sem alteração.
+yellow chicken	5	1	1	Yellow chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Anas platyrhynchos	4	2	1	Anas platyrhynchos	UNCHANGED	NO		Mantido sem alteração.
+rhesus macaques	4	1	1	Rhesus macaques	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arctocephalus tropicalis (Subantarctic fur seal); male	4	4	1	Arctocephalus tropicalis (Subantarctic fur seal)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Aratinga aurea	4	1	1	Aratinga aurea	UNCHANGED	NO		Mantido sem alteração.
+Macropus giganteus	4	2	1	Macropus giganteus	UNCHANGED	NO		Mantido sem alteração.
+Diphylla ecaudata	4	2	1	Diphylla ecaudata	UNCHANGED	NO		Mantido sem alteração.
+Equus caballus; Arabian horse	4	2	1	Equus caballus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus caballus breed Thoroughbred	4	1	1	Equus caballus breed Thoroughbred	UNCHANGED	NO		Mantido sem alteração.
+Stenella frontalis (Atlantic spotted dolphin)	4	2	1	Stenella frontalis (Atlantic spotted dolphin)	UNCHANGED	NO		Mantido sem alteração.
+Ziphius cavirostris	4	3	1	Ziphius cavirostris	UNCHANGED	NO		Mantido sem alteração.
+aborted donkey	4	1	1	Aborted donkey	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Human subjects	4	1	1	Human subjects	UNCHANGED	NO		Mantido sem alteração.
+Lepus timidus	4	1	1	Lepus timidus	UNCHANGED	NO		Mantido sem alteração.
+Lepus granatensis; sex: male	4	1	1	Lepus granatensis	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus grevyi (Grevy's zebra)	4	1	1	Equus grevyi (Grevy's zebra)	UNCHANGED	NO		Mantido sem alteração.
+Pan troglodytes ellioti	4	2	1	Pan troglodytes ellioti	UNCHANGED	NO		Mantido sem alteração.
+Pan troglodytes schweinfurthii	4	1	1	Pan troglodytes schweinfurthii	UNCHANGED	NO		Mantido sem alteração.
+Ovis canadensis	4	3	1	Ovis canadensis	UNCHANGED	NO		Mantido sem alteração.
+Oryctolagus cuniculus	4	1	1	Oryctolagus cuniculus	UNCHANGED	NO		Mantido sem alteração.
+Equus caballus breed Yili	4	2	1	Equus caballus breed Yili	UNCHANGED	NO		Mantido sem alteração.
+Chlorocebus aethiops	4	4	1	Chlorocebus aethiops	UNCHANGED	NO		Mantido sem alteração.
+Colobus guereza	4	3	1	Colobus guereza	UNCHANGED	NO		Mantido sem alteração.
+Felis catus (cat)	4	1	1	Felis catus (cat)	UNCHANGED	NO		Mantido sem alteração.
+avian	4	1	1	avian	UNCHANGED	NO		Mantido sem alteração.
+harbor porpoise	4	3	1	Harbor porpoise	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+greyhound	4	1	1	greyhound	UNCHANGED	NO		Mantido sem alteração.
+Balaenoptera acutorostrata	4	3	1	Balaenoptera acutorostrata	UNCHANGED	NO		Mantido sem alteração.
+Bison bonasus	4	1	1	Bison bonasus	UNCHANGED	NO		Mantido sem alteração.
+Bandicota indica	4	4	1	Bandicota indica	UNCHANGED	NO		Mantido sem alteração.
+Tursiops truncatus (Bottlenose dolphin)	4	1	1	Tursiops truncatus (Bottlenose dolphin)	UNCHANGED	NO		Mantido sem alteração.
+Zalophus californianus	4	4	1	Zalophus californianus	UNCHANGED	NO		Mantido sem alteração.
+Red deer (Cervus elaphus)	4	1	1	Red deer (Cervus elaphus)	UNCHANGED	NO		Mantido sem alteração.
+Grampus griseus	4	4	1	Grampus griseus	UNCHANGED	NO		Mantido sem alteração.
+Akhal-teke horse (foal)	4	1	1	Akhal-teke horse (foal)	UNCHANGED	NO		Mantido sem alteração.
+Miniopterus schreibersii (Schreibers's long-fingered bat)	4	2	1	Miniopterus schreibersii (Schreibers's long-fingered bat)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; 40-year old man	4	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens, juvenile blood	4	1	1	Homo sapiens, juvenile blood	UNCHANGED	NO		Mantido sem alteração.
+Giraffa camelopardalis reticulata	4	1	1	Giraffa camelopardalis reticulata	UNCHANGED	NO		Mantido sem alteração.
+Mesoplodon densirostris	4	1	1	Mesoplodon densirostris	UNCHANGED	NO		Mantido sem alteração.
+Asian Elephant	4	1	1	Asian elephant	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Tadarida brasiliensis (Brazilian free-tailed bat)	4	4	1	Tadarida brasiliensis (Brazilian free-tailed bat)	UNCHANGED	NO		Mantido sem alteração.
+Meles meles (European badger)	4	1	1	Meles meles (European badger)	UNCHANGED	NO		Mantido sem alteração.
+Arctocephalus australis (South American fur seal); male	4	1	1	Arctocephalus australis (South American fur seal)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+cattle with reproductive disorder	4	1	1	cattle with reproductive disorder	UNCHANGED	NO		Mantido sem alteração.
+Callorhinus ursinus; female	4	1	1	Callorhinus ursinus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Callosciurus erythraeus	4	2	1	Callosciurus erythraeus	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; male; 7 years old	4	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Glossophaga soricina	4	1	1	Glossophaga soricina	UNCHANGED	NO		Mantido sem alteração.
+chickens	4	1	1	chickens	UNCHANGED	NO		Mantido sem alteração.
+Gazella thomsoni	4	2	1	Gazella thomsoni	UNCHANGED	NO		Mantido sem alteração.
+Sciurus carolinensis	4	2	1	Sciurus carolinensis	UNCHANGED	NO		Mantido sem alteração.
+bull; Frieswal	4	1	1	bull	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+breeders	4	1	1	breeders	UNCHANGED	NO		Mantido sem alteração.
+Cervus alfredi	4	2	1	Cervus alfredi	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; female; 42 year-old	4	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Rainbow lorikeet	4	1	1	Rainbow lorikeet	UNCHANGED	NO		Mantido sem alteração.
+Carollia perspicillata	4	3	1	Carollia perspicillata	UNCHANGED	NO		Mantido sem alteração.
+Cebus capucinus	4	3	1	Cebus capucinus	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; male; 3 years old	4	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+naturally infected dairy cow infected during a respiratory outbreak	3	1	1	naturally infected dairy cow infected during a respiratory outbreak	UNCHANGED	NO		Mantido sem alteração.
+Mandrillus leucophaeus	3	2	1	Mandrillus leucophaeus	UNCHANGED	NO		Mantido sem alteração.
+Lontra longicaudis (neotropical river otter)	3	2	1	Lontra longicaudis (neotropical river otter)	UNCHANGED	NO		Mantido sem alteração.
+Diaemus youngi	3	2	1	Diaemus youngi	UNCHANGED	NO		Mantido sem alteração.
+Donkey	3	1	1	Donkey	UNCHANGED	NO		Mantido sem alteração.
+Nyctalus leisleri	3	2	1	Nyctalus leisleri	UNCHANGED	NO		Mantido sem alteração.
+Myotis oxyotus	3	1	1	Myotis oxyotus	UNCHANGED	NO		Mantido sem alteração.
+Oligoryzomys microtis (pygmy rice rat)	3	1	1	Oligoryzomys microtis (pygmy rice rat)	UNCHANGED	NO		Mantido sem alteração.
+Nyctalus lasiopterus	3	2	1	Nyctalus lasiopterus	UNCHANGED	NO		Mantido sem alteração.
+Horse	3	2	1	Horse	UNCHANGED	NO		Mantido sem alteração.
+Amazona oratrix	3	2	1	Amazona oratrix	UNCHANGED	NO		Mantido sem alteração.
+vaccinated Indian Native Aseel Chicken breed	3	1	1	vaccinated Indian Native Aseel Chicken breed	UNCHANGED	NO		Mantido sem alteração.
+snow leopard	3	1	1	Snow leopard	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+rat	3	1	1	rat	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus; male	3	1	1	Elephas maximus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arabian horses	3	2	1	Arabian horses	UNCHANGED	NO		Mantido sem alteração.
+Phascolarctos cinereus	3	2	1	Phascolarctos cinereus	UNCHANGED	NO		Mantido sem alteração.
+calf; sex: female	3	1	1	calf	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Papio anubis	3	2	1	Papio anubis	UNCHANGED	NO		Mantido sem alteração.
+Escherichia coli	3	1	1	Escherichia coli	UNCHANGED	NO		Mantido sem alteração.
+Zalophus californianus; female	3	1	1	Zalophus californianus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Damaliscus lunatus jimela	3	1	1	Damaliscus lunatus jimela	UNCHANGED	NO		Mantido sem alteração.
+Crested pigeon	3	1	1	Crested pigeon	UNCHANGED	NO		Mantido sem alteração.
+Papio cynocephalus	3	2	1	Papio cynocephalus	UNCHANGED	NO		Mantido sem alteração.
+Felis catus; Angara	3	1	1	Felis catus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Cebus apella	3	2	2	Cebus apella	UNCHANGED	NO		Mantido sem alteração.
+bat	3	2	1	bat	UNCHANGED	NO		Mantido sem alteração.
+Boobok owl	3	1	1	Boobok owl	UNCHANGED	NO		Mantido sem alteração.
+Mustela lutreola; male	3	2	1	Mustela lutreola	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Myotis escalerai	3	2	1	Myotis escalerai	UNCHANGED	NO		Mantido sem alteração.
+Myotis daubentonii	3	2	1	Myotis daubentonii	UNCHANGED	NO		Mantido sem alteração.
+Nasua nasua (South American coati)	3	3	1	Nasua nasua (South American coati)	UNCHANGED	NO		Mantido sem alteração.
+Myotis mystacinus	3	2	1	Myotis mystacinus	UNCHANGED	NO		Mantido sem alteração.
+Backyard chicken	3	1	1	Backyard chicken	UNCHANGED	NO		Mantido sem alteração.
+Bison bison	3	2	1	Bison bison	UNCHANGED	NO		Mantido sem alteração.
+Capra hircus (goat)	3	1	1	Capra hircus (goat)	UNCHANGED	NO		Mantido sem alteração.
+calf (5 days)	3	1	1	calf (5 days)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; male; 8 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Testudo sp.	3	1	1	Testudo sp.	UNCHANGED	NO		Mantido sem alteração.
+Cervus timorensis	3	1	1	Cervus timorensis	UNCHANGED	NO		Mantido sem alteração.
+Cervus	3	1	1	Cervus	UNCHANGED	NO		Mantido sem alteração.
+Rangifer tarandus granti	3	3	1	Rangifer tarandus granti	UNCHANGED	NO		Mantido sem alteração.
+broiler flocks	3	1	1	Broiler flocks	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Goat(Capra aegagrus hircus)	3	1	1	Goat(Capra aegagrus hircus)	UNCHANGED	NO		Mantido sem alteração.
+Cervus elaphus	3	2	1	Cervus elaphus	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus domesticus (Creole Hen)	3	1	1	Gallus gallus domesticus (Creole Hen)	UNCHANGED	NO		Mantido sem alteração.
+Oryx gazella	3	2	1	Oryx gazella	UNCHANGED	NO		Mantido sem alteração.
+dog; German shephred	3	1	1	dog	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Broiler breeder	3	1	1	Broiler breeder	UNCHANGED	NO		Mantido sem alteração.
+Otaria byronia	3	1	1	Otaria byronia	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; renal transplated patient	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Ovis aries (sheep)	3	1	1	Ovis aries (sheep)	UNCHANGED	NO		Mantido sem alteração.
+Pan troglodytes (chimpanzee)	3	2	1	Pan troglodytes (chimpanzee)	UNCHANGED	NO		Mantido sem alteração.
+Ovis canadensis (bighorn sheep)	3	1	1	Ovis canadensis (bighorn sheep)	UNCHANGED	NO		Mantido sem alteração.
+Myotis emarginatus	3	2	1	Myotis emarginatus	UNCHANGED	NO		Mantido sem alteração.
+Myotis sp. (bat)	3	2	1	Myotis sp. (bat)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; female; 16 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 36 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 12 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; female; 31 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 31 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 22 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Plecotus austriacus	3	2	1	Plecotus austriacus	UNCHANGED	NO		Mantido sem alteração.
+Capra nubiana	3	2	1	Capra nubiana	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; male; 49 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Pipistrellus pipistrellus	3	2	1	Pipistrellus pipistrellus	UNCHANGED	NO		Mantido sem alteração.
+Canis lupis	3	1	1	Canis lupis	UNCHANGED	NO		Mantido sem alteração.
+Priodontes maximus (giant armadillo); female	3	1	1	Priodontes maximus (giant armadillo)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapeins	3	1	1	Homo sapeins	UNCHANGED	NO		Mantido sem alteração.
+Holstein cow	3	1	1	Holstein cow	UNCHANGED	NO		Mantido sem alteração.
+Puma concolor couguar	3	1	1	Puma concolor couguar	UNCHANGED	NO		Mantido sem alteração.
+Pteronotus rubiginosus	3	2	1	Pteronotus rubiginosus	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; female; 7 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; female; 65 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Cercopithecus kandti	3	3	1	Cercopithecus kandti	UNCHANGED	NO		Mantido sem alteração.
+Pteropus lylei	3	2	1	Pteropus lylei	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; male; 34 years old	3	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Gouldian finch	3	1	1	Gouldian finch	UNCHANGED	NO		Mantido sem alteração.
+Elaphurus davidianus	3	1	1	Elaphurus davidianus	UNCHANGED	NO		Mantido sem alteração.
+Rhinolophus sinicus	3	2	1	Rhinolophus sinicus	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus domesticus (chicken)	3	1	1	Gallus gallus domesticus (chicken)	UNCHANGED	NO		Mantido sem alteração.
+Rattus rattus (black rat)	3	2	1	Rattus rattus (black rat)	UNCHANGED	NO		Mantido sem alteração.
+Procyon lotor	3	2	1	Procyon lotor	UNCHANGED	NO		Mantido sem alteração.
+Eidolon helvum	3	1	1	Eidolon helvum	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus; 2 year old captive born male	3	1	1	Elephas maximus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus asinus africanus	3	2	1	Equus asinus africanus	UNCHANGED	NO		Mantido sem alteração.
+Thalassarche melanophris (Black-browed Albatross)	3	2	1	Thalassarche melanophris (Black-browed Albatross)	UNCHANGED	NO		Mantido sem alteração.
+African green monkey	3	2	1	African green monkey	UNCHANGED	NO		Mantido sem alteração.
+African Green Monkey	3	1	1	African Green Monkey	UNCHANGED	NO		Mantido sem alteração.
+Symphalangus syndactylus	3	2	1	Symphalangus syndactylus	UNCHANGED	NO		Mantido sem alteração.
+Sus scrofa leucomystax (wild boar)	3	1	1	Sus scrofa leucomystax (wild boar)	UNCHANGED	NO		Mantido sem alteração.
+Asian elephant	3	1	1	Asian elephant	UNCHANGED	NO		Mantido sem alteração.
+Ateles paniscus	3	2	1	Ateles paniscus	UNCHANGED	NO		Mantido sem alteração.
+Sudan red-fronted gazelle	3	3	1	Sudan red-fronted gazelle	UNCHANGED	NO		Mantido sem alteração.
+equus caballus	3	1	1	Equus caballus	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Inia boliviensis	3	2	1	Inia boliviensis	UNCHANGED	NO		Mantido sem alteração.
+Molossus molossus (bat)	3	3	1	Molossus molossus (bat)	UNCHANGED	NO		Mantido sem alteração.
+rabbit	3	1	1	rabbit	UNCHANGED	NO		Mantido sem alteração.
+Aotus sp.; male	3	1	1	Aotus sp.	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+racing pigeon	2	1	1	Racing pigeon	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+olive baboon	2	1	1	Olive baboon	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+pig-tailed macaque	2	1	1	Pig-tailed macaque	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arab-Barb	2	1	1	Arab-Barb	UNCHANGED	NO		Mantido sem alteração.
+Aotus trivirgatus	2	1	1	Aotus trivirgatus	UNCHANGED	NO		Mantido sem alteração.
+Antidorcas marsupialis (Springbok)	2	2	1	Antidorcas marsupialis (Springbok)	UNCHANGED	NO		Mantido sem alteração.
+vaccinated Indian Native Assel Chicken breed	2	1	1	vaccinated Indian Native Assel Chicken breed	UNCHANGED	NO		Mantido sem alteração.
+Meles meles	2	1	1	Meles meles	UNCHANGED	NO		Mantido sem alteração.
+Mephitis mephitis	2	1	1	Mephitis mephitis	UNCHANGED	NO		Mantido sem alteração.
+Antilope cervicapra	2	2	1	Antilope cervicapra	UNCHANGED	NO		Mantido sem alteração.
+Anas poecilorhyncha	2	1	1	Anas poecilorhyncha	UNCHANGED	NO		Mantido sem alteração.
+Anoura geoffroyi	2	2	1	Anoura geoffroyi	UNCHANGED	NO		Mantido sem alteração.
+Lagenorhynchus obliquidens	2	1	1	Lagenorhynchus obliquidens	UNCHANGED	NO		Mantido sem alteração.
+Lagothrix sp.; female	2	2	1	Lagothrix sp.	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Lemur catta	2	1	1	Lemur catta	UNCHANGED	NO		Mantido sem alteração.
+Kobus ellipsiprymnus	2	2	1	Kobus ellipsiprymnus	UNCHANGED	NO		Mantido sem alteração.
+Indian sambar	2	2	1	Indian sambar	UNCHANGED	NO		Mantido sem alteração.
+Indo-Pacific humpback dolphin	2	1	1	Indo-Pacific humpback dolphin	UNCHANGED	NO		Mantido sem alteração.
+Javan rusa	2	2	1	Javan rusa	UNCHANGED	NO		Mantido sem alteração.
+gazelle	2	1	1	gazelle	UNCHANGED	NO		Mantido sem alteração.
+goose	2	1	1	goose	UNCHANGED	NO		Mantido sem alteração.
+Mus musculus domesticus	2	1	1	Mus musculus domesticus	UNCHANGED	NO		Mantido sem alteração.
+Molossus coibensis	2	2	1	Molossus coibensis	UNCHANGED	NO		Mantido sem alteração.
+Leontocebus sp.; male	2	1	1	Leontocebus sp.	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+nude mouse-passaged nasopharyngeal carcinoma tissues	2	1	1	nude mouse-passaged nasopharyngeal carcinoma tissues	UNCHANGED	NO		Mantido sem alteração.
+Anser albifrons	2	1	1	Anser albifrons	UNCHANGED	NO		Mantido sem alteração.
+Ateles belzebuth	2	1	1	Ateles belzebuth	UNCHANGED	NO		Mantido sem alteração.
+Ateles sp.	2	1	1	Ateles sp.	UNCHANGED	NO		Mantido sem alteração.
+Arvicanthis niloticus	2	1	1	Arvicanthis niloticus	UNCHANGED	NO		Mantido sem alteração.
+Tamias striatus	2	1	1	Tamias striatus	UNCHANGED	NO		Mantido sem alteração.
+Sus scrofa (swine)	2	2	1	Sus scrofa (swine)	UNCHANGED	NO		Mantido sem alteração.
+Sturnira tildae	2	2	1	Sturnira tildae	UNCHANGED	NO		Mantido sem alteração.
+Sus barbatus	2	1	1	Sus barbatus	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus; male; born 06-Aug-2009 and died 13-Apr-2011	2	2	1	Elephas maximus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Ellipsen waterbuck	2	2	1	Ellipsen waterbuck	UNCHANGED	NO		Mantido sem alteração.
+Eptesicus furinalis (bat)	2	2	1	Eptesicus furinalis (bat)	UNCHANGED	NO		Mantido sem alteração.
+Eptesicus fuscus	2	2	1	Eptesicus fuscus	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus; Vinodh, a 24-month old calf	2	1	1	Elephas maximus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Aethomys kaiseri	2	1	1	Aethomys kaiseri	UNCHANGED	NO		Mantido sem alteração.
+Tragulus kanchil	2	1	1	Tragulus kanchil	UNCHANGED	NO		Mantido sem alteração.
+Rusa timorensis (synonym: Cervus timorensis; rusa deer)	2	1	1	Rusa timorensis (synonym: Cervus timorensis	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Hippocamelus bisulcus	2	1	1	Hippocamelus bisulcus	UNCHANGED	NO		Mantido sem alteração.
+Hippopotamus amphibius	2	1	1	Hippopotamus amphibius	UNCHANGED	NO		Mantido sem alteração.
+Procyon cancrivorus (crab-eating raccoon)	2	1	1	Procyon cancrivorus (crab-eating raccoon)	UNCHANGED	NO		Mantido sem alteração.
+Pseudalopex fulvipes	2	1	1	Pseudalopex fulvipes	UNCHANGED	NO		Mantido sem alteração.
+Poephagus grunniens (yak)	2	1	1	Poephagus grunniens (yak)	UNCHANGED	NO		Mantido sem alteração.
+Pontoporia blainvillei	2	1	1	Pontoporia blainvillei	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; 3-year old boy	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; 8-year old girl	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Hippotragus equinus	2	2	1	Hippotragus equinus	UNCHANGED	NO		Mantido sem alteração.
+Homo sapience	2	1	1	Homo sapience	UNCHANGED	NO		Mantido sem alteração.
+Pusa hispida	2	1	1	Pusa hispida	UNCHANGED	NO		Mantido sem alteração.
+Qingyuan partridge chicken	2	1	1	Qingyuan partridge chicken	UNCHANGED	NO		Mantido sem alteração.
+Pteropus scapulatus	2	2	1	Pteropus scapulatus	UNCHANGED	NO		Mantido sem alteração.
+Pseudemys concinna concinna (Eastern river cooter)	2	1	1	Pseudemys concinna concinna (Eastern river cooter)	UNCHANGED	NO		Mantido sem alteração.
+Cebus sp.	2	1	1	Cebus sp.	UNCHANGED	NO		Mantido sem alteração.
+Cercopithecus cephus	2	2	1	Cercopithecus cephus	UNCHANGED	NO		Mantido sem alteração.
+Cebus	2	1	1	Cebus	UNCHANGED	NO		Mantido sem alteração.
+Cebus albifrons	2	2	1	Cebus albifrons	UNCHANGED	NO		Mantido sem alteração.
+Rangifer tarandus tarandus	2	1	1	Rangifer tarandus tarandus	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; female; 65 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; female; 85 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; case of gingivostomatitis	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male 48 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 28 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 33 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; female; 30 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 38 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 39 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 40 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 47 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 48 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Pipistrellus kuhlii	2	1	1	Pipistrellus kuhlii	UNCHANGED	NO		Mantido sem alteração.
+Pithecia pithecia pithecia	2	1	1	Pithecia pithecia pithecia	UNCHANGED	NO		Mantido sem alteração.
+Phocoena phocoena	2	1	1	Phocoena phocoena	UNCHANGED	NO		Mantido sem alteração.
+Pigs	2	1	1	Pigs	UNCHANGED	NO		Mantido sem alteração.
+Piliocolobus badius	2	2	1	Piliocolobus badius	UNCHANGED	NO		Mantido sem alteração.
+Pionites leucogaster	2	1	1	Pionites leucogaster	UNCHANGED	NO		Mantido sem alteração.
+Callithrix penicillata	2	1	1	Callithrix penicillata	UNCHANGED	NO		Mantido sem alteração.
+Callorhinus ursinus	2	1	1	Callorhinus ursinus	UNCHANGED	NO		Mantido sem alteração.
+cattle (1 year)	2	1	1	cattle (1 year)	UNCHANGED	NO		Mantido sem alteração.
+cattle; female	2	1	1	cattle	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Capra ibex	2	1	1	Capra ibex	UNCHANGED	NO		Mantido sem alteração.
+Canis lupus	2	1	1	Canis lupus	UNCHANGED	NO		Mantido sem alteração.
+Cape blue duiker	2	2	1	Cape blue duiker	UNCHANGED	NO		Mantido sem alteração.
+Canis latrans	2	1	1	Canis latrans	UNCHANGED	NO		Mantido sem alteração.
+Callithrix jacchus (marmoset)	2	1	1	Callithrix jacchus (marmoset)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; male; 53 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 58 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 61 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 68 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 69 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Capra aegagrus (goat)	2	1	1	Capra aegagrus (goat)	UNCHANGED	NO		Mantido sem alteração.
+Coturnix japonica	2	1	1	Coturnix japonica	UNCHANGED	NO		Mantido sem alteração.
+Turkey	2	1	1	Turkey	UNCHANGED	NO		Mantido sem alteração.
+Saimiri scireus	2	2	1	Saimiri scireus	UNCHANGED	NO		Mantido sem alteração.
+Saimiri sciureus albigena	2	2	1	Saimiri sciureus albigena	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus (chicken)	2	1	1	Gallus gallus (chicken)	UNCHANGED	NO		Mantido sem alteração.
+Galictis cuja (lesser grison)	2	2	1	Galictis cuja (lesser grison)	UNCHANGED	NO		Mantido sem alteração.
+Felis	2	1	1	Felis	UNCHANGED	NO		Mantido sem alteração.
+Cervus unicolor	2	1	1	Cervus unicolor	UNCHANGED	NO		Mantido sem alteração.
+Chacma baboon	2	1	1	Chacma baboon	UNCHANGED	NO		Mantido sem alteração.
+Chelonia mydas (Green Sea Turtle)	2	1	1	Chelonia mydas (Green Sea Turtle)	UNCHANGED	NO		Mantido sem alteração.
+Cercopithecus neglectus	2	2	1	Cercopithecus neglectus	UNCHANGED	NO		Mantido sem alteração.
+Rangifer tarandus (mountain reindeer); male	2	1	1	Rangifer tarandus (mountain reindeer)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Rangifer tarandus granti (Caribou)	2	1	1	Rangifer tarandus granti (Caribou)	UNCHANGED	NO		Mantido sem alteração.
+broiler	2	1	1	broiler	UNCHANGED	NO		Mantido sem alteração.
+Cervus elaphus barbarus	2	1	1	Cervus elaphus barbarus	UNCHANGED	NO		Mantido sem alteração.
+Geospiza fuliginosa	2	2	1	Geospiza fuliginosa	UNCHANGED	NO		Mantido sem alteração.
+Gerrhosaurus major (Sudan plated lizard)	2	2	1	Gerrhosaurus major (Sudan plated lizard)	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus domesticus (Domestic chicken)	2	1	1	Gallus gallus domesticus (Domestic chicken)	UNCHANGED	NO		Mantido sem alteração.
+Capra caucasica	2	1	1	Capra caucasica	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; female; 29 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; sex: female	2	2	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 70 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 71 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 74 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 77 year-old	2	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bubo virginianus	2	2	1	Bubo virginianus	UNCHANGED	NO		Mantido sem alteração.
+Broiler Flocks	2	1	1	Broiler flocks	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+darcopsis wallaby	2	1	1	Darcopsis wallaby	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Odocoileus virginianus	2	2	1	Odocoileus virginianus	UNCHANGED	NO		Mantido sem alteração.
+Odocoilus hemionus	2	1	1	Odocoilus hemionus	UNCHANGED	NO		Mantido sem alteração.
+Pagophilus groenlandicus	2	1	1	Pagophilus groenlandicus	UNCHANGED	NO		Mantido sem alteração.
+feral pigeons	2	1	1	Feral pigeons	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Buteo buteo	2	1	1	Buteo buteo	UNCHANGED	NO		Mantido sem alteração.
+CEF	2	1	1	CEF	UNCHANGED	NO		Mantido sem alteração.
+Bubo bubo (Eurasian eagle owl)	2	1	1	Bubo bubo (Eurasian eagle owl)	UNCHANGED	NO		Mantido sem alteração.
+Pan paniscus (bonobo)	2	2	1	Pan paniscus (bonobo)	UNCHANGED	NO		Mantido sem alteração.
+Stenella longirostris	2	1	1	Stenella longirostris	UNCHANGED	NO		Mantido sem alteração.
+Stigmochelys pardalis	2	2	1	Stigmochelys pardalis	UNCHANGED	NO		Mantido sem alteração.
+Eurasian badger (Meles meles)	2	1	1	Eurasian badger (Meles meles)	UNCHANGED	NO		Mantido sem alteração.
+Falco mexicanus	2	1	1	Falco mexicanus	UNCHANGED	NO		Mantido sem alteração.
+Falco peregrinus	2	1	1	Falco peregrinus	UNCHANGED	NO		Mantido sem alteração.
+bear	2	1	1	bear	UNCHANGED	NO		Mantido sem alteração.
+bird	2	2	1	bird	UNCHANGED	NO		Mantido sem alteração.
+blackbuck (indian antelope)	2	1	1	blackbuck (indian antelope)	UNCHANGED	NO		Mantido sem alteração.
+bottlenose dolphin	2	2	1	Bottlenose dolphin	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+baboon	2	1	1	baboon	UNCHANGED	NO		Mantido sem alteração.
+backyard flocks	2	1	1	Backyard flocks	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Common marmoset	2	1	1	Common marmoset	UNCHANGED	NO		Mantido sem alteração.
+Cochin chicken	2	1	1	Cochin chicken	UNCHANGED	NO		Mantido sem alteração.
+Chelonia mydas (Green sea turtle)	2	1	1	Chelonia mydas (Green sea turtle)	UNCHANGED	NO		Mantido sem alteração.
+Chelonia mydas/Eretmochelys imbricata hybrid	2	1	1	Chelonia mydas/Eretmochelys imbricata hybrid	UNCHANGED	NO		Mantido sem alteração.
+Felis catus; Sarman	2	1	1	Felis catus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+SPF-chicken	2	1	1	SPF-chicken	UNCHANGED	NO		Mantido sem alteração.
+Sacred kingfisher	2	1	1	Sacred kingfisher	UNCHANGED	NO		Mantido sem alteração.
+Rousettus aegyptiacus (Egyptian fruit bat)	2	2	1	Rousettus aegyptiacus (Egyptian fruit bat)	UNCHANGED	NO		Mantido sem alteração.
+Ovis dalli stonei	2	1	1	Ovis dalli stonei	UNCHANGED	NO		Mantido sem alteração.
+Phascolarctos cinereus (koala)	2	2	1	Phascolarctos cinereus (koala)	UNCHANGED	NO		Mantido sem alteração.
+Papio ursinus	2	2	1	Papio ursinus	UNCHANGED	NO		Mantido sem alteração.
+Papio	2	1	1	Papio	UNCHANGED	NO		Mantido sem alteração.
+Papio hamadryas	2	2	1	Papio hamadryas	UNCHANGED	NO		Mantido sem alteração.
+horse; native breed	2	1	1	horse	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bos javanicus (Banteng cattle)	2	1	1	Bos javanicus (Banteng cattle)	UNCHANGED	NO		Mantido sem alteração.
+Bos taurus (bovine)	2	1	1	Bos taurus (bovine)	UNCHANGED	NO		Mantido sem alteração.
+Bos taurus breed Holestien	2	1	1	Bos taurus breed Holestien	UNCHANGED	NO		Mantido sem alteração.
+Bos frontalis	2	1	1	Bos frontalis	UNCHANGED	NO		Mantido sem alteração.
+Bos gaurus frontalis	2	1	1	Bos gaurus frontalis	UNCHANGED	NO		Mantido sem alteração.
+Myotis ricketti	2	2	1	Myotis ricketti	UNCHANGED	NO		Mantido sem alteração.
+Myotis velifer incautus; sex: F; dev_stage: adult	2	2	1	Myotis velifer incautus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus musculus	2	1	1	Mus musculus musculus	UNCHANGED	NO		Mantido sem alteração.
+Nankeen kestrel	2	1	1	Nankeen kestrel	UNCHANGED	NO		Mantido sem alteração.
+Nannopterum brasilianus	2	1	1	Nannopterum brasilianus	UNCHANGED	NO		Mantido sem alteração.
+Neophocaena asiaeorientalis asiaeorientalis (Yangtze finless porpoise)	2	1	1	Neophocaena asiaeorientalis asiaeorientalis (Yangtze finless porpoise)	UNCHANGED	NO		Mantido sem alteração.
+Neoromicia helios	2	1	1	Neoromicia helios	UNCHANGED	NO		Mantido sem alteração.
+Myotis myotis	2	2	1	Myotis myotis	UNCHANGED	NO		Mantido sem alteração.
+Leopardus pardalis (ocelot)	2	1	1	Leopardus pardalis (ocelot)	UNCHANGED	NO		Mantido sem alteração.
+green turtle	2	1	1	Green turtle	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+feral swine	2	1	1	Feral swine	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Delphinapterus leucas (beluga whale); sex: male; neonate	2	1	1	Delphinapterus leucas (beluga whale)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Delphinapterus leucas (beluga whale); male; 15-20-year-old	2	1	1	Delphinapterus leucas (beluga whale)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Ursus maritimus (polar bear)	2	1	1	Ursus maritimus (polar bear)	UNCHANGED	NO		Mantido sem alteração.
+Tursiops truncatus (captive juvenile male bottlenose dolphin) K231	2	1	1	Tursiops truncatus (captive juvenile male bottlenose dolphin) K231	UNCHANGED	NO		Mantido sem alteração.
+Trichechus inunguis	2	1	1	Trichechus inunguis	UNCHANGED	NO		Mantido sem alteração.
+Vombatus ursinus	2	1	1	Vombatus ursinus	UNCHANGED	NO		Mantido sem alteração.
+Vulpes vulpes (red fox)	2	1	1	Vulpes vulpes (red fox)	UNCHANGED	NO		Mantido sem alteração.
+Dolichotis patagonum	2	2	1	Dolichotis patagonum	UNCHANGED	NO		Mantido sem alteração.
+Duck	2	1	1	Duck	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas; juvenile; male	2	1	1	Delphinapterus leucas	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus caballus; breed: Arabian	2	2	1	Equus caballus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus asinus somalicus (Somali wild ass)	2	1	1	Equus asinus somalicus (Somali wild ass)	UNCHANGED	NO		Mantido sem alteração.
+Stenella coeruleoalba; female	2	2	1	Stenella coeruleoalba	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Siberian tigris	2	1	1	Siberian tigris	UNCHANGED	NO		Mantido sem alteração.
+Nyctereutes procyonoides	2	1	1	Nyctereutes procyonoides	UNCHANGED	NO		Mantido sem alteração.
+Hypsugo savii	2	1	1	Hypsugo savii	UNCHANGED	NO		Mantido sem alteração.
+Homo spioens	2	1	1	Homo spioens	UNCHANGED	NO		Mantido sem alteração.
+Macaca arctoides	2	1	1	Macaca arctoides	UNCHANGED	NO		Mantido sem alteração.
+wildebeest	2	1	1	wildebeest	UNCHANGED	NO		Mantido sem alteração.
+Accipiter gentilis	2	1	1	Accipiter gentilis	UNCHANGED	NO		Mantido sem alteração.
+Acerodon celebensis	2	1	1	Acerodon celebensis	UNCHANGED	NO		Mantido sem alteração.
+vaccinated White Leghorn	2	1	1	vaccinated White Leghorn	UNCHANGED	NO		Mantido sem alteração.
+layer	2	1	1	layer	UNCHANGED	NO		Mantido sem alteração.
+Macropus giganteus (eastern grey kangaroo)	2	1	1	Macropus giganteus (eastern grey kangaroo)	UNCHANGED	NO		Mantido sem alteração.
+Mandrillus leucophaeus/sphinx	2	1	1	Mandrillus leucophaeus/sphinx	UNCHANGED	NO		Mantido sem alteração.
+Macaca nemestrina (pig-tailed macaque)	2	1	1	Macaca nemestrina (pig-tailed macaque)	UNCHANGED	NO		Mantido sem alteração.
+Macaca silenus	2	2	1	Macaca silenus	UNCHANGED	NO		Mantido sem alteração.
+Macropodidae	2	1	1	Macropodidae	UNCHANGED	NO		Mantido sem alteração.
+Arctocephalus forsteri	2	1	1	Arctocephalus forsteri	UNCHANGED	NO		Mantido sem alteração.
+native chicken	2	1	1	Native chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+new born calf	2	1	1	new born calf	UNCHANGED	NO		Mantido sem alteração.
+quail	2	1	1	quail	UNCHANGED	NO		Mantido sem alteração.
+thorouhgbred horse; male	2	1	1	Thorouhgbred horse	TRUNCATE_AT_FIRST_SEMICOLON;STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+poultry layer	2	1	1	Poultry layer	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+roan antelope	2	1	1	Roan antelope	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+red fox	2	1	1	Red fox	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Aedes	2	2	1	Aedes	UNCHANGED	NO		Mantido sem alteração.
+Anas platyrhynchos (duck)	2	1	1	Anas platyrhynchos (duck)	UNCHANGED	NO		Mantido sem alteração.
+Anas platyrhynchos domesticus (duck); breed Khaki Campbell	2	1	1	Anas platyrhynchos domesticus (duck)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Alouatta seniculus	2	1	1	Alouatta seniculus	UNCHANGED	NO		Mantido sem alteração.
+rhesus macaque	1	1	1	Rhesus macaque	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Abrornis inornata	1	1	1	Abrornis inornata	UNCHANGED	NO		Mantido sem alteração.
+Accipiter cooperii	1	1	1	Accipiter cooperii	UNCHANGED	NO		Mantido sem alteração.
+Addax, Arabian oryx	1	1	1	Addax, Arabian oryx	UNCHANGED	NO		Mantido sem alteração.
+Addax, Indian axis deer, Nile lechwe, Uganda kob	1	1	1	Addax, Indian axis deer, Nile lechwe, Uganda kob	UNCHANGED	NO		Mantido sem alteração.
+Aepyceros melampus	1	1	1	Aepyceros melampus	UNCHANGED	NO		Mantido sem alteração.
+Aepyceros melampus (Impala)	1	1	1	Aepyceros melampus (Impala)	UNCHANGED	NO		Mantido sem alteração.
+Aloautta guariba clamitans (red howler monkey)	1	1	1	Aloautta guariba clamitans (red howler monkey)	UNCHANGED	NO		Mantido sem alteração.
+Alouatta macconnelli	1	1	1	Alouatta macconnelli	UNCHANGED	NO		Mantido sem alteração.
+Alouatta palliata	1	1	1	Alouatta palliata	UNCHANGED	NO		Mantido sem alteração.
+Alpine ibex, Angolan roan antelope, East African eland, White-lipped deer	1	1	1	Alpine ibex, Angolan roan antelope, East African eland, White-lipped deer	UNCHANGED	NO		Mantido sem alteração.
+Amazona aestiva (blue-fronted Amazon parrot)	1	1	1	Amazona aestiva (blue-fronted Amazon parrot)	UNCHANGED	NO		Mantido sem alteração.
+Amazona amazonica	1	1	1	Amazona amazonica	UNCHANGED	NO		Mantido sem alteração.
+Anarhynchus wilsonia (Wilson's Plover)	1	1	1	Anarhynchus wilsonia (Wilson's Plover)	UNCHANGED	NO		Mantido sem alteração.
+Anas acuta	1	1	1	Anas acuta	UNCHANGED	NO		Mantido sem alteração.
+Anas platyrhynchos domesticus	1	1	1	Anas platyrhynchos domesticus	UNCHANGED	NO		Mantido sem alteração.
+Anas platyrhynchos domesticus (duck)	1	1	1	Anas platyrhynchos domesticus (duck)	UNCHANGED	NO		Mantido sem alteração.
+sambar (Rusa unicolor)	1	1	1	sambar (Rusa unicolor)	UNCHANGED	NO		Mantido sem alteração.
+sea otter	1	1	1	Sea otter	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+sheep; asymptomatic carrier	1	1	1	sheep	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+sika deer	1	1	1	Sika deer	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+six month old calf	1	1	1	six month old calf	UNCHANGED	NO		Mantido sem alteração.
+vaal rhebok (Pelea capreolus)	1	1	1	Vaal rhebok (Pelea capreolus)	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+wild beluga whale; dev_stage: juvenile; sex: female	1	1	1	wild beluga whale	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Lepus granatensis; sex: female	1	1	1	Lepus granatensis	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Little corella	1	1	1	Little corella	UNCHANGED	NO		Mantido sem alteração.
+Lonchophylla thomasi	1	1	1	Lonchophylla thomasi	UNCHANGED	NO		Mantido sem alteração.
+Lontra canadensis	1	1	1	Lontra canadensis	UNCHANGED	NO		Mantido sem alteração.
+Lophocebus albigena	1	1	1	Lophocebus albigena	UNCHANGED	NO		Mantido sem alteração.
+Arctocephalus australis (South American fur seal); sex: male	1	1	1	Arctocephalus australis (South American fur seal)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arctocephalus tropicalis	1	1	1	Arctocephalus tropicalis	UNCHANGED	NO		Mantido sem alteração.
+Ardea cinerea	1	1	1	Ardea cinerea	UNCHANGED	NO		Mantido sem alteração.
+Ardenna gravis (Great Shearwater); adult male	1	1	1	Ardenna gravis (Great Shearwater)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Artibeus lituratus	1	1	1	Artibeus lituratus	UNCHANGED	NO		Mantido sem alteração.
+Artibeus planirostris	1	1	1	Artibeus planirostris	UNCHANGED	NO		Mantido sem alteração.
+Arvicola terrestris	1	1	1	Arvicola terrestris	UNCHANGED	NO		Mantido sem alteração.
+Asian elephant; male	1	1	1	Asian elephant	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+mule	1	1	1	mule	UNCHANGED	NO		Mantido sem alteração.
+nasopharyngeal carcinoma patient	1	1	1	nasopharyngeal carcinoma patient	UNCHANGED	NO		Mantido sem alteração.
+newborn calf	1	1	1	Newborn calf	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+northern elephant seal Phocid breed (Mirounga angustirostris)	1	1	1	northern elephant seal Phocid breed (Mirounga angustirostris)	UNCHANGED	NO		Mantido sem alteração.
+Arabian horse; sudden death young foal; 2 months	1	1	1	Arabian horse	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arabian horse; sudden death young foal; 4 month	1	1	1	Arabian horse	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arabian horse; sudden death young foal; 54 days	1	1	1	Arabian horse	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arctocephalus australis (South American fur seal)	1	1	1	Arctocephalus australis (South American fur seal)	UNCHANGED	NO		Mantido sem alteração.
+hybrid macaw	1	1	1	Hybrid macaw	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+hybrid marine turtle Caretta caretta/Eretmochelys imbricata	1	1	1	hybrid marine turtle Caretta caretta/Eretmochelys imbricata	UNCHANGED	NO		Mantido sem alteração.
+latently infected human trigeminal ganglia	1	1	1	latently infected human trigeminal ganglia	UNCHANGED	NO		Mantido sem alteração.
+layers; local breeder	1	1	1	layers	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+laying hems	1	1	1	Laying hems	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+loggerhead turtle	1	1	1	Loggerhead turtle	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+monkey	1	1	1	monkey	UNCHANGED	NO		Mantido sem alteração.
+moose	1	1	1	moose	UNCHANGED	NO		Mantido sem alteração.
+Bos indicus breed Khillar	1	1	1	Bos indicus breed Khillar	UNCHANGED	NO		Mantido sem alteração.
+Bos taurus Ind-293521	1	1	1	Bos taurus Ind-293521	UNCHANGED	NO		Mantido sem alteração.
+Bos taurus breed Alatau	1	1	1	Bos taurus breed Alatau	UNCHANGED	NO		Mantido sem alteração.
+Bos taurus breed Holstein	1	1	1	Bos taurus breed Holstein	UNCHANGED	NO		Mantido sem alteração.
+Bos taurus breed Holstein freisian crossbred	1	1	1	Bos taurus breed Holstein freisian crossbred	UNCHANGED	NO		Mantido sem alteração.
+hog	1	1	1	hog	UNCHANGED	NO		Mantido sem alteração.
+human foreskin fibroblast	1	1	1	human foreskin fibroblast	UNCHANGED	NO		Mantido sem alteração.
+hybrid Equus sp. - Mules	1	1	1	hybrid Equus sp. - Mules	UNCHANGED	NO		Mantido sem alteração.
+Mus musculus; voucher 2993	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 2997	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 2998	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3002	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3003	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3004	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3006	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3007	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus voucher 2972	1	1	1	Mus musculus voucher 2972	UNCHANGED	NO		Mantido sem alteração.
+Mus musculus; voucher 12972	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 2972b	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 2973	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 2975	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 2980	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 2983	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 2988	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Miopithecus talapoin	1	1	1	Miopithecus talapoin	UNCHANGED	NO		Mantido sem alteração.
+Mirounga angustirostris	1	1	1	Mirounga angustirostris	UNCHANGED	NO		Mantido sem alteração.
+Molossops temminckii	1	1	1	Molossops temminckii	UNCHANGED	NO		Mantido sem alteração.
+Molossus rufus (bat)	1	1	1	Molossus rufus (bat)	UNCHANGED	NO		Mantido sem alteração.
+Mucaca mulatta	1	1	1	Mucaca mulatta	UNCHANGED	NO		Mantido sem alteração.
+Mus cervicolor	1	1	1	Mus cervicolor	UNCHANGED	NO		Mantido sem alteração.
+Mus cervicolor voucher 4455	1	1	1	Mus cervicolor voucher 4455	UNCHANGED	NO		Mantido sem alteração.
+Mus minutoides	1	1	1	Mus minutoides	UNCHANGED	NO		Mantido sem alteração.
+Kogia simus (dwarf sperm whale) K265	1	1	1	Kogia simus (dwarf sperm whale) K265	UNCHANGED	NO		Mantido sem alteração.
+Lagothrix lagotricha lugens	1	1	1	Lagothrix lagotricha lugens	UNCHANGED	NO		Mantido sem alteração.
+Larus argentatus	1	1	1	Larus argentatus	UNCHANGED	NO		Mantido sem alteração.
+Lemniscomys striatus	1	1	1	Lemniscomys striatus	UNCHANGED	NO		Mantido sem alteração.
+Leontocebus sp.; female	1	1	1	Leontocebus sp.	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Leontopithecus rosalia	1	1	1	Leontopithecus rosalia	UNCHANGED	NO		Mantido sem alteração.
+Leopardus guttulus (southern tiger cat)	1	1	1	Leopardus guttulus (southern tiger cat)	UNCHANGED	NO		Mantido sem alteração.
+Leopardus pardalis	1	1	1	Leopardus pardalis	UNCHANGED	NO		Mantido sem alteração.
+Mus musculus; voucher KS13/456	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1058	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1068	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1093	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1100	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1103	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1105	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1111	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 4657_32	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 4659_32	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 4660_32	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 5479_010	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher KS13/421	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher KS13/426	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher KS13/439	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher KS13/442	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3374	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3375	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3383	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 4606_#15	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 4607_#15	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 4654_32	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 4655_32	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 4656_32	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3009	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3013	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3014	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3016	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3021	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3024	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3029	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher 3306	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S75:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S76:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S77	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S79	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S79:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S80	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S80:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S82	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S68	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S69	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S7	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S70	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S70:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S74	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S74:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S75	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Nandinia binotata	1	1	1	Nandinia binotata	UNCHANGED	NO		Mantido sem alteração.
+Neogale vison	1	1	1	Neogale vison	UNCHANGED	NO		Mantido sem alteração.
+Neophocaena asiaeorientalis	1	1	1	Neophocaena asiaeorientalis	UNCHANGED	NO		Mantido sem alteração.
+Neoromicia capensis	1	1	1	Neoromicia capensis	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; specimen_voucher: KFSHRC:S66	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S66:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S67	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S67:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1114	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus musculus; voucher Mu09/1138	1	1	1	Mus musculus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Mus spicilegus	1	1	1	Mus spicilegus	UNCHANGED	NO		Mantido sem alteração.
+Mustela erminea	1	1	1	Mustela erminea	UNCHANGED	NO		Mantido sem alteração.
+Myotis alcathoe	1	1	1	Myotis alcathoe	UNCHANGED	NO		Mantido sem alteração.
+Myotis bechsteinii	1	1	1	Myotis bechsteinii	UNCHANGED	NO		Mantido sem alteração.
+Myotis capaccinii	1	1	1	Myotis capaccinii	UNCHANGED	NO		Mantido sem alteração.
+Myotis chinensis	1	1	1	Myotis chinensis	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; specimen_voucher: KFSHRC:S24	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S24:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S27	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S27:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S28	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S29:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S3	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S34	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Otaria byronia (South American sea lion); male	1	1	1	Otaria byronia (South American sea lion)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Ovine	1	1	1	Ovine	UNCHANGED	NO		Mantido sem alteração.
+Ozobranchus branchiatus	1	1	1	Ozobranchus branchiatus	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; specimen_voucher: KFSHRC:S196:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S198	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S198:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S20	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S20:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Nyctalus noctula	1	1	1	Nyctalus noctula	UNCHANGED	NO		Mantido sem alteração.
+Nycticebus coucang	1	1	1	Nycticebus coucang	UNCHANGED	NO		Mantido sem alteração.
+Ochotona alpina	1	1	1	Ochotona alpina	UNCHANGED	NO		Mantido sem alteração.
+Odobenus rosmarus divergens (Pacific walrus)	1	1	1	Odobenus rosmarus divergens (Pacific walrus)	UNCHANGED	NO		Mantido sem alteração.
+Ondatra zibethicus	1	1	1	Ondatra zibethicus	UNCHANGED	NO		Mantido sem alteração.
+Onychoprion fuscatus	1	1	1	Onychoprion fuscatus	UNCHANGED	NO		Mantido sem alteração.
+Opheodrys vernalis	1	1	1	Opheodrys vernalis	UNCHANGED	NO		Mantido sem alteração.
+Oryctolagus cuniculus (domestic rabbit)	1	1	1	Oryctolagus cuniculus (domestic rabbit)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; specimen_voucher: KFSHRC:S82:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S86:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Hydropotes inermis	1	1	1	Hydropotes inermis	UNCHANGED	NO		Mantido sem alteração.
+Hylobates nomascus leucogenys	1	1	1	Hylobates nomascus leucogenys	UNCHANGED	NO		Mantido sem alteração.
+Hylobates syndactylus	1	1	1	Hylobates syndactylus	UNCHANGED	NO		Mantido sem alteração.
+Indian hog deer	1	1	1	Indian hog deer	UNCHANGED	NO		Mantido sem alteração.
+Ninox strenua (powerful owl)	1	1	1	Ninox strenua (powerful owl)	UNCHANGED	NO		Mantido sem alteração.
+Nubian ibex	1	1	1	Nubian ibex	UNCHANGED	NO		Mantido sem alteração.
+Pavo cristatus (peafowl)	1	1	1	Pavo cristatus (peafowl)	UNCHANGED	NO		Mantido sem alteração.
+Pekania pennanti	1	1	1	Pekania pennanti	UNCHANGED	NO		Mantido sem alteração.
+Peponocephala electra nasal mucosa	1	1	1	Peponocephala electra nasal mucosa	UNCHANGED	NO		Mantido sem alteração.
+Peromyscus leucopus	1	1	1	Peromyscus leucopus	UNCHANGED	NO		Mantido sem alteração.
+Persian goitered gazelle	1	1	1	Persian goitered gazelle	UNCHANGED	NO		Mantido sem alteração.
+Philantomba monticola	1	1	1	Philantomba monticola	UNCHANGED	NO		Mantido sem alteração.
+Phoca groenlandica	1	1	1	Phoca groenlandica	UNCHANGED	NO		Mantido sem alteração.
+Phoca vitulina richardsii	1	1	1	Phoca vitulina richardsii	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; specimen_voucher: KFSHRC:S60:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S64	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S64:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Pan troglodytes schweinfurthii voucher 4791	1	1	1	Pan troglodytes schweinfurthii voucher 4791	UNCHANGED	NO		Mantido sem alteração.
+Panthera tigris altaica (Amur tiger)	1	1	1	Panthera tigris altaica (Amur tiger)	UNCHANGED	NO		Mantido sem alteração.
+Papio hamadryas hamadryas	1	1	1	Papio hamadryas hamadryas	UNCHANGED	NO		Mantido sem alteração.
+Papio ursinus (Chacma baboon)	1	1	1	Papio ursinus (Chacma baboon)	UNCHANGED	NO		Mantido sem alteração.
+Pavo cristatus (Blue Peafowl)	1	1	1	Pavo cristatus (Blue Peafowl)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; specimen_voucher: KFSHRC:S47:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S51	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S51:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S52	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S56:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S57:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S60	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S34:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S35	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S35:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S37	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S37:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S42	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S42:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S47	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Podargus strigoides	1	1	1	Podargus strigoides	UNCHANGED	NO		Mantido sem alteração.
+Poecile palustris	1	1	1	Poecile palustris	UNCHANGED	NO		Mantido sem alteração.
+Polyplectron malacense (Malayan peacock pheasant)	1	1	1	Polyplectron malacense (Malayan peacock pheasant)	UNCHANGED	NO		Mantido sem alteração.
+Pongo pygmaeus (orangutan)	1	1	1	Pongo pygmaeus (orangutan)	UNCHANGED	NO		Mantido sem alteração.
+Pongo pygmaeus pygmaeus	1	1	1	Pongo pygmaeus pygmaeus	UNCHANGED	NO		Mantido sem alteração.
+Potamochoerus porcus	1	1	1	Potamochoerus porcus	UNCHANGED	NO		Mantido sem alteração.
+Priodontes maximus (giant armadillo); male	1	1	1	Priodontes maximus (giant armadillo)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Procavia capensis (rock hyrax)	1	1	1	Procavia capensis (rock hyrax)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; HIV infected carrier	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; Hodgkin lymphoma patient	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; adult female	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Phocoena phocoena (Harbour porpoise)	1	1	1	Phocoena phocoena (Harbour porpoise)	UNCHANGED	NO		Mantido sem alteração.
+Phoenicopterus chilensis	1	1	1	Phoenicopterus chilensis	UNCHANGED	NO		Mantido sem alteração.
+Physeter catodon peripheral pulmonary lymph node	1	1	1	Physeter catodon peripheral pulmonary lymph node	UNCHANGED	NO		Mantido sem alteração.
+Pipistrellus pygmaeus	1	1	1	Pipistrellus pygmaeus	UNCHANGED	NO		Mantido sem alteração.
+Platycercus elegans (Rosella parrakeet)	1	1	1	Platycercus elegans (Rosella parrakeet)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; specimen_voucher: KFSHRC:S13:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S14	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S14:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S15	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S150	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S17	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S17:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; Female; 40 years old	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 59 year-old	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 59 yeasrs	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; male; 62 year-old	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; pregnant women	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; sex: female; age: 8 yo	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S12	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S12:CMV56	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; specimen_voucher: KFSHRC:S13	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Pyxis arachnoides	1	1	1	Pyxis arachnoides	UNCHANGED	NO		Mantido sem alteração.
+Qingyuan Ma chicken	1	1	1	Qingyuan Ma chicken	UNCHANGED	NO		Mantido sem alteração.
+Rangifer tarandus tarandus (mountain reindeer)	1	1	1	Rangifer tarandus tarandus (mountain reindeer)	UNCHANGED	NO		Mantido sem alteração.
+Rattus exulans	1	1	1	Rattus exulans	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus domesticus (Indian Giant)	1	1	1	Gallus gallus domesticus (Indian Giant)	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus gallus	1	1	1	Gallus gallus gallus	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus layer chicken	1	1	1	Gallus gallus layer chicken	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus; breed: white leghorn layer	1	1	1	Gallus gallus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Pseudorca crassidens	1	1	1	Pseudorca crassidens	UNCHANGED	NO		Mantido sem alteração.
+Pseudorca crassidens cervical lymph node and lung tissue	1	1	1	Pseudorca crassidens cervical lymph node and lung tissue	UNCHANGED	NO		Mantido sem alteração.
+Pteronotus alitonus	1	1	1	Pteronotus alitonus	UNCHANGED	NO		Mantido sem alteração.
+Pteropus poliocephalus	1	1	1	Pteropus poliocephalus	UNCHANGED	NO		Mantido sem alteração.
+Puffinus puffinus (Manx Shearwater)	1	1	1	Puffinus puffinus (Manx Shearwater)	UNCHANGED	NO		Mantido sem alteração.
+Puma concolor	1	1	1	Puma concolor	UNCHANGED	NO		Mantido sem alteração.
+Puma yagouaroundi (jaguarundi)	1	1	1	Puma yagouaroundi (jaguarundi)	UNCHANGED	NO		Mantido sem alteração.
+Pyrrhura cruentata	1	1	1	Pyrrhura cruentata	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens; 13 years; male	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; 16 years from Chandigarh; male	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; 28 years; male	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; 29 years; female	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; 31 years; male	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; 33-month old boy	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; 35 years; male	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Homo sapiens; 37 years from Telangana; male	1	1	1	Homo sapiens	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Hawaiian monk seal	1	1	1	Hawaiian monk seal	UNCHANGED	NO		Mantido sem alteração.
+Helarctos malayanus	1	1	1	Helarctos malayanus	UNCHANGED	NO		Mantido sem alteração.
+Heloderma suspectum	1	1	1	Heloderma suspectum	UNCHANGED	NO		Mantido sem alteração.
+Hexaprotodon liberiensis	1	1	1	Hexaprotodon liberiensis	UNCHANGED	NO		Mantido sem alteração.
+Hipposideros caffer	1	1	1	Hipposideros caffer	UNCHANGED	NO		Mantido sem alteração.
+Hipposideros lankadiva	1	1	1	Hipposideros lankadiva	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens (female)	1	1	1	Homo sapiens (female)	UNCHANGED	NO		Mantido sem alteração.
+Homo sapiens suffering from herpes zoster/shingles	1	1	1	Homo sapiens suffering from herpes zoster/shingles	UNCHANGED	NO		Mantido sem alteração.
+Saccopteryx bilineata	1	1	1	Saccopteryx bilineata	UNCHANGED	NO		Mantido sem alteração.
+Saddle	1	1	1	Saddle	UNCHANGED	NO		Mantido sem alteração.
+Saguinus	1	1	1	Saguinus	UNCHANGED	NO		Mantido sem alteração.
+Felis catus (domestic cat)	1	1	1	Felis catus (domestic cat)	UNCHANGED	NO		Mantido sem alteração.
+Felis catus; Scottish	1	1	1	Felis catus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Felis catus; Siamese	1	1	1	Felis catus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Forest kingfisher	1	1	1	Forest kingfisher	UNCHANGED	NO		Mantido sem alteração.
+Formosan sambar	1	1	1	Formosan sambar	UNCHANGED	NO		Mantido sem alteração.
+Rhinolophus sp.	1	1	1	Rhinolophus sp.	UNCHANGED	NO		Mantido sem alteração.
+Rhynchonycteris naso	1	1	1	Rhynchonycteris naso	UNCHANGED	NO		Mantido sem alteração.
+Rousettus aegyptiacus; captive	1	1	1	Rousettus aegyptiacus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Rupicapra pyrenaica	1	1	1	Rupicapra pyrenaica	UNCHANGED	NO		Mantido sem alteração.
+Rusa unicolor	1	1	1	Rusa unicolor	UNCHANGED	NO		Mantido sem alteração.
+Rusa unicolor swinhoei	1	1	1	Rusa unicolor swinhoei	UNCHANGED	NO		Mantido sem alteração.
+Rusa unicolor swinhoii (Formosan Sambar Deer)	1	1	1	Rusa unicolor swinhoii (Formosan Sambar Deer)	UNCHANGED	NO		Mantido sem alteração.
+SIV-infected rhesus macaque housed at the New England Primate Research Center that died of AIDS	1	1	1	SIV-infected rhesus macaque housed at the New England Primate Research Center that died of AIDS	UNCHANGED	NO		Mantido sem alteração.
+Grevy's zebra	1	1	1	Grevy's zebra	UNCHANGED	NO		Mantido sem alteração.
+Rattus rattus diardii (house rat)	1	1	1	Rattus rattus diardii (house rat)	UNCHANGED	NO		Mantido sem alteração.
+Rattus tiomanicus	1	1	1	Rattus tiomanicus	UNCHANGED	NO		Mantido sem alteração.
+Red-flanked duiker	1	1	1	Red-flanked duiker	UNCHANGED	NO		Mantido sem alteração.
+Rhesus macaque	1	1	1	Rhesus macaque	UNCHANGED	NO		Mantido sem alteração.
+Rhesus monkey	1	1	1	Rhesus monkey	UNCHANGED	NO		Mantido sem alteração.
+Rhinolophus hipposideros	1	1	1	Rhinolophus hipposideros	UNCHANGED	NO		Mantido sem alteração.
+Rhinolophus siamensis	1	1	1	Rhinolophus siamensis	UNCHANGED	NO		Mantido sem alteração.
+Gavia immer (common loon)	1	1	1	Gavia immer (common loon)	UNCHANGED	NO		Mantido sem alteração.
+Gazella thomsonii	1	1	1	Gazella thomsonii	UNCHANGED	NO		Mantido sem alteração.
+Gerrhosaurus nigrolineatus (black-lined plated lizard)	1	1	1	Gerrhosaurus nigrolineatus (black-lined plated lizard)	UNCHANGED	NO		Mantido sem alteração.
+Globicephala macrorhynchus	1	1	1	Globicephala macrorhynchus	UNCHANGED	NO		Mantido sem alteração.
+Goat	1	1	1	Goat	UNCHANGED	NO		Mantido sem alteração.
+Gorilla beringei graueri (Grauer's gorilla)	1	1	1	Gorilla beringei graueri (Grauer's gorilla)	UNCHANGED	NO		Mantido sem alteração.
+Grammomys sp.	1	1	1	Grammomys sp.	UNCHANGED	NO		Mantido sem alteração.
+Grampus griseus (Risso's dolphin)	1	1	1	Grampus griseus (Risso's dolphin)	UNCHANGED	NO		Mantido sem alteração.
+Equus burchelli	1	1	1	Equus burchelli	UNCHANGED	NO		Mantido sem alteração.
+Equus burchellii antiquorum (Damara zebra)	1	1	1	Equus burchellii antiquorum (Damara zebra)	UNCHANGED	NO		Mantido sem alteração.
+Equus caballus (Arabian horse)	1	1	1	Equus caballus (Arabian horse)	UNCHANGED	NO		Mantido sem alteração.
+Equus caballus (Horse)	1	1	1	Equus caballus (Horse)	UNCHANGED	NO		Mantido sem alteração.
+Equus caballus; breed: Arabian, sudden death 8 month foal	1	1	1	Equus caballus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus caballus; breed: Arabian, sudden death 9 month foal	1	1	1	Equus caballus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus caballus; breed: Arabian, sudden death foal	1	1	1	Equus caballus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus hemionus	1	1	1	Equus hemionus	UNCHANGED	NO		Mantido sem alteração.
+Sotalia guianensis (Guiana dolphin)	1	1	1	Sotalia guianensis (Guiana dolphin)	UNCHANGED	NO		Mantido sem alteração.
+Sotalia guianensis (Guyana dolphin); female; adult	1	1	1	Sotalia guianensis (Guyana dolphin)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Southern black-backed gull	1	1	1	Southern black-backed gull	UNCHANGED	NO		Mantido sem alteração.
+Southern royal albatross	1	1	1	Southern royal albatross	UNCHANGED	NO		Mantido sem alteração.
+Southern steenbok	1	1	1	Southern steenbok	UNCHANGED	NO		Mantido sem alteração.
+Speke's gazelle	1	1	1	Speke's gazelle	UNCHANGED	NO		Mantido sem alteração.
+Spheniscus magellanicus	1	1	1	Spheniscus magellanicus	UNCHANGED	NO		Mantido sem alteração.
+Stenella coeruleoalba; sex: male	1	1	1	Stenella coeruleoalba	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Gallus gallus breed Rhode Island Red	1	1	1	Gallus gallus breed Rhode Island Red	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus domecticus	1	1	1	Gallus gallus domecticus	UNCHANGED	NO		Mantido sem alteração.
+Saguinus oedipus	1	1	1	Saguinus oedipus	UNCHANGED	NO		Mantido sem alteração.
+Saimiri boliviensis bolviensis	1	1	1	Saimiri boliviensis bolviensis	UNCHANGED	NO		Mantido sem alteração.
+Saimiri sciureus macrodon	1	1	1	Saimiri sciureus macrodon	UNCHANGED	NO		Mantido sem alteração.
+Saimiri sciureus sciureus	1	1	1	Saimiri sciureus sciureus	UNCHANGED	NO		Mantido sem alteração.
+Sarcophilus harrisii (Tasmanian devil)	1	1	1	Sarcophilus harrisii (Tasmanian devil)	UNCHANGED	NO		Mantido sem alteração.
+Sheep	1	1	1	Sheep	UNCHANGED	NO		Mantido sem alteração.
+Forpus xanthopterygius	1	1	1	Forpus xanthopterygius	UNCHANGED	NO		Mantido sem alteração.
+Fregata magnificens	1	1	1	Fregata magnificens	UNCHANGED	NO		Mantido sem alteração.
+Gallus Gallus	1	1	1	Gallus gallus	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Gallus gallus (Broiler Breeder)	1	1	1	Gallus gallus (Broiler Breeder)	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus (Broiler)	1	1	1	Gallus gallus (Broiler)	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus (Layer)	1	1	1	Gallus gallus (Layer)	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus White leghorn	1	1	1	Gallus gallus White leghorn	UNCHANGED	NO		Mantido sem alteração.
+Gallus gallus bankiva (Red Junglefowl)	1	1	1	Gallus gallus bankiva (Red Junglefowl)	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus borneensis	1	1	1	Elephas maximus borneensis	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus; Adun, a 12-month old calf	1	1	1	Elephas maximus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Elephas maximus; Elephas maximus	1	1	1	Elephas maximus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Elephas maximus; Tuntan, a 36-month old calf	1	1	1	Elephas maximus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Eptesicus diminutus (bat)	1	1	1	Eptesicus diminutus (bat)	UNCHANGED	NO		Mantido sem alteração.
+Eptesicus furinalis	1	1	1	Eptesicus furinalis	UNCHANGED	NO		Mantido sem alteração.
+Eptesicus fuscus (big brown bat)	1	1	1	Eptesicus fuscus (big brown bat)	UNCHANGED	NO		Mantido sem alteração.
+Eptesicus fuscus; female	1	1	1	Eptesicus fuscus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Sus domesticus domesticus	1	1	1	Sus domesticus domesticus	UNCHANGED	NO		Mantido sem alteração.
+Sus scrofa familiaris (domestic pig)	1	1	1	Sus scrofa familiaris (domestic pig)	UNCHANGED	NO		Mantido sem alteração.
+Terrapene carolina	1	1	1	Terrapene carolina	UNCHANGED	NO		Mantido sem alteração.
+Testudo graeca	1	1	1	Testudo graeca	UNCHANGED	NO		Mantido sem alteração.
+Eastern yellow-backed duiker, Zambian sable antelope	1	1	1	Eastern yellow-backed duiker, Zambian sable antelope	UNCHANGED	NO		Mantido sem alteração.
+Elaphurus davidianus (Pere David's deer)	1	1	1	Elaphurus davidianus (Pere David's deer)	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus (Asian elephant)	1	1	1	Elephas maximus (Asian elephant)	UNCHANGED	NO		Mantido sem alteração.
+Elephas maximus (adult male Asian elephant)	1	1	1	Elephas maximus (adult male Asian elephant)	UNCHANGED	NO		Mantido sem alteração.
+Steno bredanensis (dolphin)	1	1	1	Steno bredanensis (dolphin)	UNCHANGED	NO		Mantido sem alteração.
+Steno bredanensis; sex: male	1	1	1	Steno bredanensis	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Strix aluco	1	1	1	Strix aluco	UNCHANGED	NO		Mantido sem alteração.
+Strix uralensis (Ural owl)	1	1	1	Strix uralensis (Ural owl)	UNCHANGED	NO		Mantido sem alteração.
+Sturnira lilium	1	1	1	Sturnira lilium	UNCHANGED	NO		Mantido sem alteração.
+Sula dactylatra	1	1	1	Sula dactylatra	UNCHANGED	NO		Mantido sem alteração.
+Sulphur-crested cockatoo	1	1	1	Sulphur-crested cockatoo	UNCHANGED	NO		Mantido sem alteração.
+Sus domesticus	1	1	1	Sus domesticus	UNCHANGED	NO		Mantido sem alteração.
+Equus hemionus onager	1	1	1	Equus hemionus onager	UNCHANGED	NO		Mantido sem alteração.
+Equus hemionus onager (Persian onager)	1	1	1	Equus hemionus onager (Persian onager)	UNCHANGED	NO		Mantido sem alteração.
+Equus hemionus onager (onager)	1	1	1	Equus hemionus onager (onager)	UNCHANGED	NO		Mantido sem alteração.
+Equus kiang holdereri (eastern kiang)	1	1	1	Equus kiang holdereri (eastern kiang)	UNCHANGED	NO		Mantido sem alteração.
+Eretmochelys imbricata	1	1	1	Eretmochelys imbricata	UNCHANGED	NO		Mantido sem alteração.
+European badger (Meles meles)	1	1	1	European badger (Meles meles)	UNCHANGED	NO		Mantido sem alteração.
+Falco tinnunculus	1	1	1	Falco tinnunculus	UNCHANGED	NO		Mantido sem alteração.
+Feline	1	1	1	Feline	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas (beluga whale); adult; male; 15-20 yo	1	1	1	Delphinapterus leucas (beluga whale)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Delphinapterus leucas (beluga whale); juvenile	1	1	1	Delphinapterus leucas (beluga whale)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Delphinapterus leucas BB-12-04	1	1	1	Delphinapterus leucas BB-12-04	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas DL-12-01	1	1	1	Delphinapterus leucas DL-12-01	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas DL-BB-12-01	1	1	1	Delphinapterus leucas DL-BB-12-01	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas DL-BB-12-02	1	1	1	Delphinapterus leucas DL-BB-12-02	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas DL-BB-12-08	1	1	1	Delphinapterus leucas DL-BB-12-08	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas; dev_stage: adult; sex: female	1	1	1	Delphinapterus leucas	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Ursus americanus	1	1	1	Ursus americanus	UNCHANGED	NO		Mantido sem alteração.
+Ursus arctos (brown bear)	1	1	1	Ursus arctos (brown bear)	UNCHANGED	NO		Mantido sem alteração.
+Ursus thibetanus	1	1	1	Ursus thibetanus	UNCHANGED	NO		Mantido sem alteração.
+Ursus thibetanus (Asiatic black bear)	1	1	1	Ursus thibetanus (Asiatic black bear)	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas (Beluga whale); dev_stage: adult; sex: female	1	1	1	Delphinapterus leucas (Beluga whale)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Delphinapterus leucas (Beluga whale); dev_stage: juvenile; sex: female	1	1	1	Delphinapterus leucas (Beluga whale)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Delphinapterus leucas (beluga whale); 29 yo	1	1	1	Delphinapterus leucas (beluga whale)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Delphinapterus leucas (beluga whale); adult; male; 10 yo	1	1	1	Delphinapterus leucas (beluga whale)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Trichoglossus haematodus	1	1	1	Trichoglossus haematodus	UNCHANGED	NO		Mantido sem alteração.
+Trichoglossus moluccanus	1	1	1	Trichoglossus moluccanus	UNCHANGED	NO		Mantido sem alteração.
+Tursiops aduncus	1	1	1	Tursiops aduncus	UNCHANGED	NO		Mantido sem alteração.
+Tursiops erebennus	1	1	1	Tursiops erebennus	UNCHANGED	NO		Mantido sem alteração.
+Tursiops truncatus (adult captive male bottlenose dolphin) K311	1	1	1	Tursiops truncatus (adult captive male bottlenose dolphin) K311	UNCHANGED	NO		Mantido sem alteração.
+Tursiops truncatus (common bottlenose dolphin)	1	1	1	Tursiops truncatus (common bottlenose dolphin)	UNCHANGED	NO		Mantido sem alteração.
+Tursiops truncatus (dolphin)	1	1	1	Tursiops truncatus (dolphin)	UNCHANGED	NO		Mantido sem alteração.
+USA	1	1	1	USA	UNCHANGED	NO		Mantido sem alteração.
+Eptesicus serotinus	1	1	1	Eptesicus serotinus	UNCHANGED	NO		Mantido sem alteração.
+Equine; Arabian horse	1	1	1	Equine	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Equus	1	1	1	Equus	UNCHANGED	NO		Mantido sem alteração.
+Tetrao urogallus aquitanicus	1	1	1	Tetrao urogallus aquitanicus	UNCHANGED	NO		Mantido sem alteração.
+Thalassarche chlororhynchos (Yellow-nosed Albatross)	1	1	1	Thalassarche chlororhynchos (Yellow-nosed Albatross)	UNCHANGED	NO		Mantido sem alteração.
+Three-Yellow chicken	1	1	1	Three-yellow chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Trichechus manatus latirostris	1	1	1	Trichechus manatus latirostris	UNCHANGED	NO		Mantido sem alteração.
+Trichechus manatus manatus	1	1	1	Trichechus manatus manatus	UNCHANGED	NO		Mantido sem alteração.
+Choloepus didactylus (two-toed sloth); sex: male	1	1	1	Choloepus didactylus (two-toed sloth)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Colobus badius	1	1	1	Colobus badius	UNCHANGED	NO		Mantido sem alteração.
+Colobus polykomos	1	1	1	Colobus polykomos	UNCHANGED	NO		Mantido sem alteração.
+Columba livia (rock dove)	1	1	1	Columba livia (rock dove)	UNCHANGED	NO		Mantido sem alteração.
+Columba sp.	1	1	1	Columba sp.	UNCHANGED	NO		Mantido sem alteração.
+Corvus cornix	1	1	1	Corvus cornix	UNCHANGED	NO		Mantido sem alteração.
+Crocidura russula	1	1	1	Crocidura russula	UNCHANGED	NO		Mantido sem alteração.
+Cygnus atratus; ACDP:9103-25-1145	1	1	1	Cygnus atratus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+asiatic elephant; female	1	1	1	Asiatic elephant	TRUNCATE_AT_FIRST_SEMICOLON;STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+bats	1	1	1	bats	UNCHANGED	NO		Mantido sem alteração.
+bighorn sheep	1	1	1	Bighorn sheep	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+blue penguin (Eudyptula minor)	1	1	1	blue penguin (Eudyptula minor)	UNCHANGED	NO		Mantido sem alteração.
+Chelonia mydas (green sea turtles)	1	1	1	Chelonia mydas (green sea turtles)	UNCHANGED	NO		Mantido sem alteração.
+Chersina angulata	1	1	1	Chersina angulata	UNCHANGED	NO		Mantido sem alteração.
+Chicken; COBB 430Y	1	1	1	Chicken	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Chironectes minimus (water opossum)	1	1	1	Chironectes minimus (water opossum)	UNCHANGED	NO		Mantido sem alteração.
+Varecia rubra x Varecia variegata	1	1	1	Varecia rubra x Varecia variegata	UNCHANGED	NO		Mantido sem alteração.
+Varecia variegata	1	1	1	Varecia variegata	UNCHANGED	NO		Mantido sem alteração.
+Yorkshire Terrier dog	1	1	1	Yorkshire Terrier dog	UNCHANGED	NO		Mantido sem alteração.
+Zoo	1	1	1	Zoo	UNCHANGED	NO		Mantido sem alteração.
+aborted fetus	1	1	1	Aborted fetus	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+anatid	1	1	1	anatid	UNCHANGED	NO		Mantido sem alteração.
+anatid species	1	1	1	Anatid species	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+aoudad	1	1	1	aoudad	UNCHANGED	NO		Mantido sem alteração.
+Delphinapterus leucas; juvenile	1	1	1	Delphinapterus leucas	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Dermochelys coriacea	1	1	1	Dermochelys coriacea	UNCHANGED	NO		Mantido sem alteração.
+Desert bighorn, Arabian oryx	1	1	1	Desert bighorn, Arabian oryx	UNCHANGED	NO		Mantido sem alteração.
+Domestic Dog	1	1	1	Domestic dog	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Domestic cattle, Ellipsen waterbuck, Javan rusa, Scimitar-horned oryx, Indian sambar	1	1	1	Domestic cattle, Ellipsen waterbuck, Javan rusa, Scimitar-horned oryx, Indian sambar	UNCHANGED	NO		Mantido sem alteração.
+Eastern giant eland, Southern gerenuk	1	1	1	Eastern giant eland, Southern gerenuk	UNCHANGED	NO		Mantido sem alteração.
+Eastern yellow-backed duiker, North Indian muntjac	1	1	1	Eastern yellow-backed duiker, North Indian muntjac	UNCHANGED	NO		Mantido sem alteração.
+Vaal rhebok	1	1	1	Vaal rhebok	UNCHANGED	NO		Mantido sem alteração.
+Callosciurus prevostii	1	1	1	Callosciurus prevostii	UNCHANGED	NO		Mantido sem alteração.
+Calonectris borealis (Cory's Shearwater)	1	1	1	Calonectris borealis (Cory's Shearwater)	UNCHANGED	NO		Mantido sem alteração.
+Calonectris borealis (Cory's Shearwater); juvenile male	1	1	1	Calonectris borealis (Cory's Shearwater)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Calonectris edwardsii (Cape Verde Shearwater)	1	1	1	Calonectris edwardsii (Cape Verde Shearwater)	UNCHANGED	NO		Mantido sem alteração.
+Canin	1	1	1	Canin	UNCHANGED	NO		Mantido sem alteração.
+Canis lupus familiaris (English bulldog)	1	1	1	Canis lupus familiaris (English bulldog)	UNCHANGED	NO		Mantido sem alteração.
+Canis lupus familiaris (Golden retriever)	1	1	1	Canis lupus familiaris (Golden retriever)	UNCHANGED	NO		Mantido sem alteração.
+Canis lupus familiaris (Labrador Retriever)	1	1	1	Canis lupus familiaris (Labrador Retriever)	UNCHANGED	NO		Mantido sem alteração.
+calf; female	1	1	1	calf	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+caspian seal	1	1	1	Caspian seal	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+cattle calf	1	1	1	Cattle calf	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+cattle with reproductive disorders	1	1	1	cattle with reproductive disorders	UNCHANGED	NO		Mantido sem alteração.
+cattle; Madin-Darby bovine kidney (MDBK) cells	1	1	1	cattle	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Callithrix geoffroyi (white-headed marmoset)	1	1	1	Callithrix geoffroyi (white-headed marmoset)	UNCHANGED	NO		Mantido sem alteração.
+Callithrix jacchus	1	1	1	Callithrix jacchus	UNCHANGED	NO		Mantido sem alteração.
+Callithrix penicillata (black-tufted marmoset)	1	1	1	Callithrix penicillata (black-tufted marmoset)	UNCHANGED	NO		Mantido sem alteração.
+Cervus nippon taiouanus	1	1	1	Cervus nippon taiouanus	UNCHANGED	NO		Mantido sem alteração.
+bovine; male	1	1	1	bovine	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+broiler breeder	1	1	1	Broiler breeder	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+broiler breeders	1	1	1	Broiler breeders	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+brown layer chicken	1	1	1	brown layer chicken	UNCHANGED	NO		Mantido sem alteração.
+buffalo breed Murrah	1	1	1	buffalo breed Murrah	UNCHANGED	NO		Mantido sem alteração.
+bull; Holstein Friesian	1	1	1	bull	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+calf; 6 months	1	1	1	calf	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Cystophora cristata	1	1	1	Cystophora cristata	UNCHANGED	NO		Mantido sem alteração.
+Cavendish's dik dik	1	1	1	Cavendish's dik dik	UNCHANGED	NO		Mantido sem alteração.
+Cercocebus agilis	1	1	1	Cercocebus agilis	UNCHANGED	NO		Mantido sem alteração.
+Cercocebus atys	1	1	1	Cercocebus atys	UNCHANGED	NO		Mantido sem alteração.
+Cercopithecus hamlyni	1	1	1	Cercopithecus hamlyni	UNCHANGED	NO		Mantido sem alteração.
+Cercopithecus nictitans	1	1	1	Cercopithecus nictitans	UNCHANGED	NO		Mantido sem alteração.
+Certhidea olivacea	1	1	1	Certhidea olivacea	UNCHANGED	NO		Mantido sem alteração.
+Cervus canadensis (elk)	1	1	1	Cervus canadensis (elk)	UNCHANGED	NO		Mantido sem alteração.
+Breeder chicken	1	1	1	Breeder chicken	UNCHANGED	NO		Mantido sem alteração.
+British Shorthair Cat	1	1	1	British Shorthair Cat	UNCHANGED	NO		Mantido sem alteração.
+Bubalus bubalis (Nothern territory buffalo)	1	1	1	Bubalus bubalis (Nothern territory buffalo)	UNCHANGED	NO		Mantido sem alteração.
+Bubalus bubalis (buffalo)	1	1	1	Bubalus bubalis (buffalo)	UNCHANGED	NO		Mantido sem alteração.
+Bubalus bubalis (water buffalo)	1	1	1	Bubalus bubalis (water buffalo)	UNCHANGED	NO		Mantido sem alteração.
+Bubalus bubalis Ind-295923	1	1	1	Bubalus bubalis Ind-295923	UNCHANGED	NO		Mantido sem alteração.
+Bubalus bubalis Ind-295955	1	1	1	Bubalus bubalis Ind-295955	UNCHANGED	NO		Mantido sem alteração.
+Bubo bubo (eagle-owl)	1	1	1	Bubo bubo (eagle-owl)	UNCHANGED	NO		Mantido sem alteração.
+domestic cat (himalaya breed)	1	1	1	Domestic cat (himalaya breed)	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+domestic cat (local breed)	1	1	1	Domestic cat (local breed)	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+domestic cat (shirazi breed)	1	1	1	Domestic cat (shirazi breed)	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bos taurus breed Jersey crossbreed	1	1	1	Bos taurus breed Jersey crossbreed	UNCHANGED	NO		Mantido sem alteração.
+Bos taurus; age: 6 years old; breed: holstein	1	1	1	Bos taurus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bos taurus; breed: Holstein	1	1	1	Bos taurus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bos taurus; breed: holstein	1	1	1	Bos taurus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bos taurus; calf	1	1	1	Bos taurus	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+chicken; female	1	1	1	chicken	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+chronic fatigue syndrome patient	1	1	1	chronic fatigue syndrome patient	UNCHANGED	NO		Mantido sem alteração.
+common wombat	1	1	1	Common wombat	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+country chicken	1	1	1	Country chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+dairy cattle	1	1	1	Dairy cattle	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+dead chicken	1	1	1	Dead chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+dog; American Staffordshire Terrier; male; 4.5 week-old	1	1	1	dog	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+dolphin	1	1	1	dolphin	UNCHANGED	NO		Mantido sem alteração.
+Canis lupus familiaris (dog)	1	1	1	Canis lupus familiaris (dog)	UNCHANGED	NO		Mantido sem alteração.
+Cape blue duiker, Persian goitered gazelle	1	1	1	Cape blue duiker, Persian goitered gazelle	UNCHANGED	NO		Mantido sem alteração.
+Cape blue duiker, Red-flanked duiker	1	1	1	Cape blue duiker, Red-flanked duiker	UNCHANGED	NO		Mantido sem alteração.
+chick embryo fibroblast	1	1	1	chick embryo fibroblast	UNCHANGED	NO		Mantido sem alteração.
+chicken breed layer	1	1	1	chicken breed layer	UNCHANGED	NO		Mantido sem alteração.
+chicken infected with Marek's disease	1	1	1	chicken infected with Marek's disease	UNCHANGED	NO		Mantido sem alteração.
+chicken; breed: Harbor	1	1	1	chicken	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+chicken; breed: Harbor; sex: female	1	1	1	chicken	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Balaenoptera brydei	1	1	1	Balaenoptera brydei	UNCHANGED	NO		Mantido sem alteração.
+Balaenoptera physalus	1	1	1	Balaenoptera physalus	UNCHANGED	NO		Mantido sem alteração.
+Bandicota savilei voucher 4339	1	1	1	Bandicota savilei voucher 4339	UNCHANGED	NO		Mantido sem alteração.
+Blackbuck, Cretan wild goat	1	1	1	Blackbuck, Cretan wild goat	UNCHANGED	NO		Mantido sem alteração.
+Blainville's beaked whale (Mesoplodon densirostris)	1	1	1	Blainville's beaked whale (Mesoplodon densirostris)	UNCHANGED	NO		Mantido sem alteração.
+Blainville's beaked whale K285	1	1	1	Blainville's beaked whale K285	UNCHANGED	NO		Mantido sem alteração.
+Bos Taurus	1	1	1	Bos taurus	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Bos frontalis gaurus	1	1	1	Bos frontalis gaurus	UNCHANGED	NO		Mantido sem alteração.
+great horned owl #9049	1	1	1	great horned owl #9049	UNCHANGED	NO		Mantido sem alteração.
+green sea turtle	1	1	1	green sea turtle	UNCHANGED	NO		Mantido sem alteração.
+guinea pig	1	1	1	Guinea pig	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Atlantic striped dolphin	1	1	1	Atlantic striped dolphin	UNCHANGED	NO		Mantido sem alteração.
+Australian domestic geese	1	1	1	Australian domestic geese	UNCHANGED	NO		Mantido sem alteração.
+Babyrousa babyrussa	1	1	1	Babyrousa babyrussa	UNCHANGED	NO		Mantido sem alteração.
+Backyard turkey	1	1	1	Backyard turkey	UNCHANGED	NO		Mantido sem alteração.
+Bactrian camel	1	1	1	Bactrian camel	UNCHANGED	NO		Mantido sem alteração.
+equine; female	1	1	1	equine	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+falcon	1	1	1	falcon	UNCHANGED	NO		Mantido sem alteração.
+falcon #668	1	1	1	falcon #668	UNCHANGED	NO		Mantido sem alteração.
+falcon #806	1	1	1	falcon #806	UNCHANGED	NO		Mantido sem alteração.
+fowl	1	1	1	fowl	UNCHANGED	NO		Mantido sem alteração.
+great horned owl #10027	1	1	1	great horned owl #10027	UNCHANGED	NO		Mantido sem alteração.
+great horned owl #12351	1	1	1	great horned owl #12351	UNCHANGED	NO		Mantido sem alteração.
+great horned owl #469	1	1	1	great horned owl #469	UNCHANGED	NO		Mantido sem alteração.
+Burkitt lymphoma cell line Jijoye	1	1	1	Burkitt lymphoma cell line Jijoye	UNCHANGED	NO		Mantido sem alteração.
+Burkitt lymphoma cell line Raji	1	1	1	Burkitt lymphoma cell line Raji	UNCHANGED	NO		Mantido sem alteração.
+Burmese thamin	1	1	1	Burmese thamin	UNCHANGED	NO		Mantido sem alteração.
+Buteo buteo (common buzzard)	1	1	1	Buteo buteo (common buzzard)	UNCHANGED	NO		Mantido sem alteração.
+Cacatua galerita	1	1	1	Cacatua galerita	UNCHANGED	NO		Mantido sem alteração.
+Cairina moschata (Muscovy duck)	1	1	1	Cairina moschata (Muscovy duck)	UNCHANGED	NO		Mantido sem alteração.
+Calf	1	1	1	Calf	UNCHANGED	NO		Mantido sem alteração.
+Callicebus	1	1	1	Callicebus	UNCHANGED	NO		Mantido sem alteração.
+partridge chicken	1	1	1	Partridge chicken	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+pigeon 12049	1	1	1	pigeon 12049	UNCHANGED	NO		Mantido sem alteração.
+pigeon 3315	1	1	1	pigeon 3315	UNCHANGED	NO		Mantido sem alteração.
+pigeon 645	1	1	1	pigeon 645	UNCHANGED	NO		Mantido sem alteração.
+piglets	1	1	1	piglets	UNCHANGED	NO		Mantido sem alteração.
+porcine fetal	1	1	1	Porcine fetal	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+porcupine	1	1	1	porcupine	UNCHANGED	NO		Mantido sem alteração.
+Lophocebus aterrimus	1	1	1	Lophocebus aterrimus	UNCHANGED	NO		Mantido sem alteração.
+Apodemus agrarius	1	1	1	Apodemus agrarius	UNCHANGED	NO		Mantido sem alteração.
+Apodemus flavicollis voucher 3438	1	1	1	Apodemus flavicollis voucher 3438	UNCHANGED	NO		Mantido sem alteração.
+Apodemus sp.	1	1	1	Apodemus sp.	UNCHANGED	NO		Mantido sem alteração.
+Arabian Horse	1	1	1	Arabian horse	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arabian horse; sudden death old aged horse; 4.5 years	1	1	1	Arabian horse	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Arabian horse; sudden death young foal	1	1	1	Arabian horse	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+ocelot	1	1	1	ocelot	UNCHANGED	NO		Mantido sem alteração.
+olive ridley	1	1	1	Olive ridley	STANDARDIZE_FIRST_TWO_TERMS_FROM_OBSERVED_PAIR	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Anodorhynchus hyacinthinus	1	1	1	Anodorhynchus hyacinthinus	UNCHANGED	NO		Mantido sem alteração.
+Anser anser; ACDP:17-01508	1	1	1	Anser anser	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Anser anser; ACDP:21-00380	1	1	1	Anser anser	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Anser anser; ACDP:89-0066	1	1	1	Anser anser	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Antechinus	1	1	1	Antechinus	UNCHANGED	NO		Mantido sem alteração.
+Aonyx cinerea (oriental small-clawed otter)	1	1	1	Aonyx cinerea (oriental small-clawed otter)	UNCHANGED	NO		Mantido sem alteração.
+Aotus azarai	1	1	1	Aotus azarai	UNCHANGED	NO		Mantido sem alteração.
+Aotus vociferans	1	1	1	Aotus vociferans	UNCHANGED	NO		Mantido sem alteração.
+Asiatic elephant	1	1	1	Asiatic elephant	UNCHANGED	NO		Mantido sem alteração.
+Ateles fusciceps robutus	1	1	1	Ateles fusciceps robutus	UNCHANGED	NO		Mantido sem alteração.
+Ateles geoffroyi	1	1	1	Ateles geoffroyi	UNCHANGED	NO		Mantido sem alteração.
+Atlantic bottlenose dolphin	1	1	1	Atlantic bottlenose dolphin	UNCHANGED	NO		Mantido sem alteração.
+Anas platyrhynchos domesticus (duck); sex male; breed Khaki Campbell	1	1	1	Anas platyrhynchos domesticus (duck)	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Anas platyrhynchos; sex: male; breed: Khaki Campbell	1	1	1	Anas platyrhynchos	TRUNCATE_AT_FIRST_SEMICOLON	YES		Padronização aprovada pelo usuário em 2026-09-23.
+Anatid species	1	1	1	Anatid species	UNCHANGED	NO		Mantido sem alteração.
+Anatidae sp.	1	1	1	Anatidae sp.	UNCHANGED	NO		Mantido sem alteração.
+Mink	1	1	1	Mink	UNCHANGED	NO		Mantido sem alteração.
+Isoodon macrourus	1	1	1	Isoodon macrourus	UNCHANGED	NO		Mantido sem alteração.
+Jimela topi	1	1	1	Jimela topi	UNCHANGED	NO		Mantido sem alteração.
+Jimela topi, Slender-horned gazelle	1	1	1	Jimela topi, Slender-horned gazelle	UNCHANGED	NO		Mantido sem alteração.
+Kangrez cattle	1	1	1	Kangrez cattle	UNCHANGED	NO		Mantido sem alteração.
+Khaki Campbell duck	1	1	1	Khaki Campbell duck	UNCHANGED	NO		Mantido sem alteração.
+Kobus megaceros	1	1	1	Kobus megaceros	UNCHANGED	NO		Mantido sem alteração.
+Kogia breviceps (pygmy sperm whale)	1	1	1	Kogia breviceps (pygmy sperm whale)	UNCHANGED	NO		Mantido sem alteração.
+Mesoplodon bidens	1	1	1	Mesoplodon bidens	UNCHANGED	NO		Mantido sem alteração.
+Mesoplodon europaeus	1	1	1	Mesoplodon europaeus	UNCHANGED	NO		Mantido sem alteração.
+Mesoplodon europaeus (Gervais's beaked whale)	1	1	1	Mesoplodon europaeus (Gervais's beaked whale)	UNCHANGED	NO		Mantido sem alteração.
+Mesoplodon stejnegeri cervical lymph node	1	1	1	Mesoplodon stejnegeri cervical lymph node	UNCHANGED	NO		Mantido sem alteração.
+Mico melanurus	1	1	1	Mico melanurus	UNCHANGED	NO		Mantido sem alteração.
+Microtus agrestis	1	1	1	Microtus agrestis	UNCHANGED	NO		Mantido sem alteração.
+Microtus arvalis	1	1	1	Microtus arvalis	UNCHANGED	NO		Mantido sem alteração.
+Miniopterus fuliginosus	1	1	1	Miniopterus fuliginosus	UNCHANGED	NO		Mantido sem alteração.
+Malayan sambar	1	1	1	Malayan sambar	UNCHANGED	NO		Mantido sem alteração.
+Mandrillus leucophaues	1	1	1	Mandrillus leucophaues	UNCHANGED	NO		Mantido sem alteração.
+Marmoset	1	1	1	Marmoset	UNCHANGED	NO		Mantido sem alteração.
+Marmota marmota	1	1	1	Marmota marmota	UNCHANGED	NO		Mantido sem alteração.
+Martes pennanti (Fisher)	1	1	1	Martes pennanti (Fisher)	UNCHANGED	NO		Mantido sem alteração.
+Martes zibellina (sable)	1	1	1	Martes zibellina (sable)	UNCHANGED	NO		Mantido sem alteração.
+Megaptera novaeangliae (Humpback whale)	1	1	1	Megaptera novaeangliae (Humpback whale)	UNCHANGED	NO		Mantido sem alteração.
+Meles leucurus (Asian badger)	1	1	1	Meles leucurus (Asian badger)	UNCHANGED	NO		Mantido sem alteração.
+Loxondonta africana	1	1	1	Loxondonta africana	UNCHANGED	NO		Mantido sem alteração.
+Lutra lutra (Eurasian otter)	1	1	1	Lutra lutra (Eurasian otter)	UNCHANGED	NO		Mantido sem alteração.
+Lynx canadensis	1	1	1	Lynx canadensis	UNCHANGED	NO		Mantido sem alteração.
+Lynx canadensis subsolanus	1	1	1	Lynx canadensis subsolanus	UNCHANGED	NO		Mantido sem alteração.
+Macaca radiata	1	1	1	Macaca radiata	UNCHANGED	NO		Mantido sem alteração.
+Macaca thibetana	1	1	1	Macaca thibetana	UNCHANGED	NO		Mantido sem alteração.
+Macronectes giganteus (Southern Giant-Petrel)	1	1	1	Macronectes giganteus (Southern Giant-Petrel)	UNCHANGED	NO		Mantido sem alteração.
+Madoqua kirkii	1	1	1	Madoqua kirkii	UNCHANGED	NO		Mantido sem alteração.
