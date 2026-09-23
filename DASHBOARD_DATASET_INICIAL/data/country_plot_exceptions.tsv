@@ -1,0 +1,6 @@
+country_final	n_records	plot_action	plot_country	iso3	note
+missing	2	MISSING			Valor sentinela; excluir de país conhecido.
+Korea	36	AMBIGUOUS_NO_AUTOMAP			Ambíguo para mapa moderno; não assumir South Korea.
+USSR	10	HISTORICAL_NO_AUTOMAP			Entidade histórica multinacional; não atribuir a país atual sem evidência.
+Turkiye	12	PLOT_ALIAS	Turkey	TUR	Alias inequívoco apenas para agregação/plotagem; preservar country_final.
+Zaire	3	HISTORICAL_MAP_ONLY	Democratic Republic of the Congo	COD	Mapeamento geográfico atual apenas para mapa; preservar nome histórico original.

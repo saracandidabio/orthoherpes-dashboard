@@ -1,0 +1,87 @@
+{
+  "dashboard_data_version": "7.0.0",
+  "generated_at_utc": "2026-09-23T19:29:40.924417+00:00",
+  "policy": {
+    "source_records_mutated": false,
+    "source_cds_mutated": false,
+    "country_canonical_is_plot_layer_only": true,
+    "host_normalization_applied": false,
+    "ncbi_snapshot_mutates_local_data": false
+  },
+  "counts": {
+    "records": 77099,
+    "unique_accession_version": 77099,
+    "cds": 446993,
+    "cds_unique_accessions": 48994,
+    "species_final_distinct_all": 836,
+    "species_final_distinct_resolved": 835,
+    "unresolved_records": 441,
+    "hypothetical_cds": 25086,
+    "hypothetical_accessions": 1194,
+    "hypothetical_with_annotation_clue": 4506
+  },
+  "source_sha256": {
+    "records_dashboard.tsv.gz": "fee5fcd76e59ce995c5e6954fd562ee7baeb8a6fff618ca3610b1b06891568b0",
+    "cds_dashboard.tsv.gz": "2c47da5eb2753becf77d476b31d14c18135c8e53b7003b47610f6050c8a013fa"
+  },
+  "derived_sha256": {
+    "records_dashboard.tsv.gz": "fee5fcd76e59ce995c5e6954fd562ee7baeb8a6fff618ca3610b1b06891568b0",
+    "cds_dashboard.tsv.gz": "2c47da5eb2753becf77d476b31d14c18135c8e53b7003b47610f6050c8a013fa",
+    "cds_core.tsv.gz": "25bfe21ca609e8e9144bd0a864cd580929072716164b31a3c084e8dfa105a298",
+    "cds_details.tsv.gz": "62ebf6bb14a4b846f5ab08d27e114c315a8b823486512117dd3e5a24ab1fe7b3",
+    "metadata_quality.tsv": "dfc13c3a1c8bf30cc336bd46f8356c856d347e76276eb706eb4b0c9455c92942",
+    "interest_summary.tsv": "2046f18a290d0501d1550fe775b4d338c9d1d24dc2960c64d5d347d3257a506e",
+    "dpol_flow.tsv": "866983ec1250e5e3b4610a10ebe52c146c2be662277033e356992a91cc9ee962",
+    "country_plot_exceptions.tsv": "240c8f7851b840e50720b8779ff6a7a2c040e4ae18296433744750042c8f5429",
+    "host_crosswalk_candidates.tsv": "129b58050e851670511b26d73503759a91d21b1b6186b5857fe8756f07ca3ad4",
+    "cds_global_gene_counts.tsv.gz": "98542d8373e1987869d3fce5bfe41f90010f540ef3d11a7254f5f93b462f9952",
+    "cds_global_product_counts.tsv.gz": "0cdeeec8fecc8333b057e2a2dbee6f564f013134f5a11c8b8b592bf146f985be",
+    "cds_global_clue_counts.tsv.gz": "68f6d4db84624e97f8dd8b6737bcc892a2ae760920c40e2e55ceb9a4650a3640",
+    "cds_global_clue_source_counts.tsv": "4f5d05f023306a75687624adf54dae30c436d7ed41e9fe461fee86bcb958f79b",
+    "cds_global_taxon_summary.tsv.gz": "b019caecbb8347e758c7e9efdcfbbc1b27875b5418a11aa45016a38b4276c240",
+    "cds_global_annotation_class.tsv": "77682b651e867a6bf1df8bcf16f2c4ccb4e888282550ec028a4aa2f161962482",
+    "DATA_PROFILE.tsv": "f42f0f1c183cabcfedead6f7dc952776342590f663797886d5683e1e6a477308",
+    "local_validation_summary.tsv": "bf959091b002aabe8fa81eed7f48c55e5fea9197565392035f220f85ba132d9b",
+    "ncbi_validation_summary.tsv": "ad25d2bee6d57c152669d728543e317e317e49fe0564e319216ee2fa6afd7c8e",
+    "NCBI_FOCUS_VALIDATION_SNAPSHOT.md": "71b47fbc5a08e7b77463658364ef9b5de3a621dcc572fafc2d32f6235f0ef865"
+  },
+  "cds_split": {
+    "core_columns": [
+      "cds_row_id",
+      "accession_version",
+      "taxid",
+      "organism",
+      "host",
+      "gene",
+      "gene_synonym",
+      "product",
+      "protein_id",
+      "locus_tag",
+      "standard_name",
+      "function",
+      "species_final",
+      "taxonomy_final_status",
+      "country_final",
+      "collection_year_num",
+      "interest_group",
+      "annotation_clue",
+      "annotation_clue_source",
+      "protein_annotation_class",
+      "is_hypothetical",
+      "gene_normalized",
+      "product_normalized"
+    ],
+    "detail_columns": [
+      "cds_row_id",
+      "collection_date",
+      "country_base",
+      "location",
+      "strand",
+      "note",
+      "collection_year",
+      "interest_rule",
+      "identifier_clue",
+      "identifier_clue_source"
+    ]
+  }
+}

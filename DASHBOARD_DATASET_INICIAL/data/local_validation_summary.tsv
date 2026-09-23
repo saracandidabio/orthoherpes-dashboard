@@ -1,0 +1,25 @@
+check	status	observed	expected	note
+sha256:records_dashboard.tsv.gz	OK	fee5fcd76e59ce995c5e6954fd562ee7baeb8a6fff618ca3610b1b06891568b0	fee5fcd76e59ce995c5e6954fd562ee7baeb8a6fff618ca3610b1b06891568b0	Hash atual versus hash registrado no BUILD_AUDIT.
+sha256:cds_dashboard.tsv.gz	OK	2c47da5eb2753becf77d476b31d14c18135c8e53b7003b47610f6050c8a013fa	2c47da5eb2753becf77d476b31d14c18135c8e53b7003b47610f6050c8a013fa	Hash atual versus hash registrado no BUILD_AUDIT.
+sha256:interest_summary.tsv	OK	2046f18a290d0501d1550fe775b4d338c9d1d24dc2960c64d5d347d3257a506e	2046f18a290d0501d1550fe775b4d338c9d1d24dc2960c64d5d347d3257a506e	Hash atual versus hash registrado no BUILD_AUDIT.
+sha256:metadata_quality.tsv	OK	dfc13c3a1c8bf30cc336bd46f8356c856d347e76276eb706eb4b0c9455c92942	dfc13c3a1c8bf30cc336bd46f8356c856d347e76276eb706eb4b0c9455c92942	Hash atual versus hash registrado no BUILD_AUDIT.
+sha256:dpol_flow.tsv	OK	866983ec1250e5e3b4610a10ebe52c146c2be662277033e356992a91cc9ee962	866983ec1250e5e3b4610a10ebe52c146c2be662277033e356992a91cc9ee962	Hash atual versus hash registrado no BUILD_AUDIT.
+schema:records	OK	all required columns present	all required columns present	
+schema:cds	OK	all required columns present	all required columns present	
+records:rows	OK	77099	77099	
+records:unique_accession_version	OK	77099	77099	
+cds:rows	OK	446993	446993	
+cds:accessions_subset_of_records	OK	0	0	Número de accession_version presentes em CDS mas ausentes da tabela de registros.
+cds:unique_accessions	INFO	48994		Accessions com pelo menos uma CDS no inventário.
+taxonomy:species_final_distinct_all	INFO	836		Inclui a categoria sentinela Unresolved_species.
+taxonomy:species_final_distinct_resolved	INFO	835		Número de species_final distintos após excluir valores sem espécie resolvida.
+taxonomy:unresolved_records	INFO	441		Registros com species_final=Unresolved_species.
+metadata_quality:country_available_recomputed	OK	44523	44523	Recalcula missing de forma consistente. Há 2 registros com country_final literal 'missing'.
+interest_groups:summary_matches_records	OK	all match	all match	
+protein_annotation:classes_sum_to_cds	OK	446993	446993	
+protein_annotation:hypothetical_count	OK	25086	25086	
+country_value:Korea	INFO	36		Ambíguo para mapa moderno; NÃO mapear automaticamente para South Korea.
+country_value:USSR	INFO	10		Entidade histórica; não atribuir a um país atual sem evidência adicional.
+country_value:Zaire	INFO	3		Nome histórico geograficamente correspondente à atual RD Congo; mapear apenas na camada de mapa, preservando o original.
+country_value:Turkiye	INFO	12		Alias inequívoco de Turkey/Türkiye; pode ser unificado apenas na camada de plotagem.
+country_value:missing	INFO	2		Valor sentinela; tratar como ausente.
