@@ -867,28 +867,93 @@ def page_geo():
 
     mapped, unmapped = L.add_iso3(countries_all, "País", "Registros")
     if len(mapped):
-        neon_blue_scale = [
-            [0.00, "rgba(10, 92, 155, 0.12)"],
-            [0.18, "rgba(0, 153, 219, 0.28)"],
-            [0.45, "rgba(0, 210, 255, 0.48)"],
-            [0.72, "rgba(0, 145, 255, 0.72)"],
-            [1.00, "rgba(0, 82, 255, 0.96)"],
+                registros = mapped["Registros"].astype(float)
+
+        # Escala logarítmica para diferenciar melhor países
+        # com poucos e muitos registros
+        z_log = np.log1p(registros)
+
+        # Paleta quente: amarelo -> laranja -> vermelho
+        warm_scale = [
+            [0.00, "#fff7bc"],
+            [0.18, "#fee391"],
+            [0.38, "#fec44f"],
+            [0.58, "#fe9929"],
+            [0.78, "#d95f0e"],
+            [1.00, "#7f0000"],
         ]
+
+        positivos = registros[registros > 0]
+
+        if len(positivos):
+            tick_raw = np.unique(
+                np.round(
+                    np.geomspace(
+                        max(1, positivos.min()),
+                        registros.max(),
+                        num=6
+                    )
+                ).astype(int)
+            )
+        else:
+            tick_raw = np.array([0])
+
         fig = go.Figure(go.Choropleth(
-            locations=mapped["iso3"], z=mapped["Registros"], text=mapped["País"],
+            locations=mapped["iso3"],
+            z=z_log,
+            text=mapped["País"],
             customdata=mapped[["País", "Registros"]],
-            hovertemplate="<b>%{customdata[0]}</b><br>Registros: %{customdata[1]:,.0f}<extra></extra>",
-            colorscale=neon_blue_scale,
-            colorbar=dict(title="Registros", thickness=14, len=0.72),
-            marker=dict(line=dict(color="rgba(78, 226, 255, 0.88)", width=0.9)),
+
+            hovertemplate=(
+                "<b>%{customdata[0]}</b>"
+                "<br>Registros: %{customdata[1]:,.0f}"
+                "<extra></extra>"
+            ),
+
+            colorscale=warm_scale,
+
+            zmin=z_log.min(),
+            zmax=z_log.max(),
+
+            colorbar=dict(
+                title="Registros",
+                thickness=14,
+                len=0.72,
+                tickvals=np.log1p(tick_raw),
+                ticktext=[
+                    f"{x:,}".replace(",", ".")
+                    for x in tick_raw
+                ],
+            ),
+
+            marker=dict(
+                line=dict(
+                    color="rgba(255,255,255,0.55)",
+                    width=0.6
+                )
+            ),
         ))
-        fig.update_geos(
-            projection_type="natural earth", showframe=False,
-            showcoastlines=True, coastlinecolor="rgba(80, 222, 255, 0.85)", coastlinewidth=0.8,
-            showcountries=True, countrycolor="rgba(76, 214, 255, 0.58)", countrywidth=0.6,
-            showland=True, landcolor="rgba(20, 55, 82, 0.10)",
-            showocean=True, oceancolor="rgba(5, 24, 42, 0.03)",
-            showlakes=True, lakecolor="rgba(5, 24, 42, 0.04)",
+                fig.update_geos(
+            projection_type="natural earth",
+            showframe=False,
+
+            showcoastlines=True,
+            coastlinecolor="rgba(120,120,120,0.65)",
+            coastlinewidth=0.7,
+
+            showcountries=True,
+            countrycolor="rgba(255,255,255,0.70)",
+            countrywidth=0.6,
+
+            showland=True,
+            landcolor="rgba(225,225,225,0.20)",
+
+            showocean=True,
+            oceancolor="rgba(235,242,247,0.15)",
+
+            showlakes=True,
+            lakecolor="rgba(235,242,247,0.20)",
+
             bgcolor="rgba(0,0,0,0)",
         )
         fig.update_layout(
