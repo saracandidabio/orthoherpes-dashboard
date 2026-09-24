@@ -854,26 +854,72 @@ def page_geo():
     st.header("Distribuição geográfica")
     require_records()
     scope_note()
+
     geo = known(filtered_records, "country_canonical")
+
     if geo.empty:
         st.info("Nenhum registro com país conhecido nos filtros atuais.")
         return
 
-    countries_all = value_counts_table(geo["country_canonical"], "País", "Registros")
-    ranked_bar(
-        countries_all, "País", "Registros", key="geo_country_n",
-        label="Países no gráfico de registros", title="Registros por país (nomes atuais normalizados)",
+    # ============================================================
+    # CONTAGEM DE REGISTROS POR PAÍS
+    # ============================================================
+
+    countries_all = value_counts_table(
+        geo["country_canonical"],
+        "País",
+        "Registros",
     )
 
-    mapped, unmapped = L.add_iso3(countries_all, "País", "Registros")
-    if len(mapped):
-                registros = mapped["Registros"].astype(float)
+    ranked_bar(
+        countries_all,
+        "País",
+        "Registros",
+        key="geo_country_n",
+        label="Países no gráfico de registros",
+        title="Registros por país (nomes atuais normalizados)",
+    )
 
-        # Escala logarítmica para diferenciar melhor países
-        # com poucos e muitos registros
+    # ============================================================
+    # MAPA MUNDIAL
+    # ============================================================
+
+    mapped, unmapped = L.add_iso3(
+        countries_all,
+        "País",
+        "Registros",
+    )
+
+    if len(mapped):
+
+        # --------------------------------------------------------
+        # Valores reais
+        # --------------------------------------------------------
+
+        registros = mapped["Registros"].astype(float)
+
+        # --------------------------------------------------------
+        # Escala logarítmica
+        #
+        # A cor usa log1p para permitir distinguir melhor países
+        # com poucos registros quando existem países com números
+        # muito maiores.
+        #
+        # O hover continua mostrando o número REAL de registros.
+        # --------------------------------------------------------
+
         z_log = np.log1p(registros)
 
-        # Paleta quente: amarelo -> laranja -> vermelho
+        # --------------------------------------------------------
+        # Paleta quente
+        #
+        # Poucos registros:
+        # amarelo claro
+        #
+        # Muitos registros:
+        # vermelho escuro
+        # --------------------------------------------------------
+
         warm_scale = [
             [0.00, "#fff7bc"],
             [0.18, "#fee391"],
@@ -883,58 +929,135 @@ def page_geo():
             [1.00, "#7f0000"],
         ]
 
-        positivos = registros[registros > 0]
+        # --------------------------------------------------------
+        # Ticks da barra de cores
+        #
+        # A escala usada internamente é logarítmica, mas os rótulos
+        # mostram os valores reais de registros.
+        # --------------------------------------------------------
+
+        positivos = registros[
+            registros > 0
+        ]
 
         if len(positivos):
-            tick_raw = np.unique(
-                np.round(
-                    np.geomspace(
-                        max(1, positivos.min()),
-                        registros.max(),
-                        num=6
-                    )
-                ).astype(int)
+
+            minimo_positivo = max(
+                1,
+                float(
+                    positivos.min()
+                ),
             )
-        else:
-            tick_raw = np.array([0])
 
-        fig = go.Figure(go.Choropleth(
-            locations=mapped["iso3"],
-            z=z_log,
-            text=mapped["País"],
-            customdata=mapped[["País", "Registros"]],
+            maximo_registros = float(
+                registros.max()
+            )
 
-            hovertemplate=(
-                "<b>%{customdata[0]}</b>"
-                "<br>Registros: %{customdata[1]:,.0f}"
-                "<extra></extra>"
-            ),
+            if maximo_registros > minimo_positivo:
 
-            colorscale=warm_scale,
-
-            zmin=z_log.min(),
-            zmax=z_log.max(),
-
-            colorbar=dict(
-                title="Registros",
-                thickness=14,
-                len=0.72,
-                tickvals=np.log1p(tick_raw),
-                ticktext=[
-                    f"{x:,}".replace(",", ".")
-                    for x in tick_raw
-                ],
-            ),
-
-            marker=dict(
-                line=dict(
-                    color="rgba(255,255,255,0.55)",
-                    width=0.6
+                tick_raw = np.unique(
+                    np.round(
+                        np.geomspace(
+                            minimo_positivo,
+                            maximo_registros,
+                            num=6,
+                        )
+                    ).astype(int)
                 )
-            ),
-        ))
-                fig.update_geos(
+
+            else:
+
+                tick_raw = np.array(
+                    [
+                        int(
+                            round(
+                                maximo_registros
+                            )
+                        )
+                    ]
+                )
+
+        else:
+
+            tick_raw = np.array(
+                [0]
+            )
+
+        # --------------------------------------------------------
+        # CHOROPLETH
+        # --------------------------------------------------------
+
+        fig = go.Figure(
+            go.Choropleth(
+
+                locations=mapped["iso3"],
+
+                # Cor calculada em escala logarítmica
+                z=z_log,
+
+                text=mapped["País"],
+
+                # Valores reais preservados para o hover
+                customdata=mapped[
+                    [
+                        "País",
+                        "Registros",
+                    ]
+                ],
+
+                hovertemplate=(
+                    "<b>%{customdata[0]}</b>"
+                    "<br>Registros: %{customdata[1]:,.0f}"
+                    "<extra></extra>"
+                ),
+
+                colorscale=warm_scale,
+
+                zmin=float(
+                    z_log.min()
+                ),
+
+                zmax=float(
+                    z_log.max()
+                ),
+
+                colorbar=dict(
+                    title="Registros",
+                    thickness=14,
+                    len=0.72,
+
+                    # posição dos ticks na escala log
+                    tickvals=np.log1p(
+                        tick_raw
+                    ),
+
+                    # texto mostrado em números reais
+                    ticktext=[
+                        f"{int(x):,}".replace(
+                            ",",
+                            ".",
+                        )
+                        for x in tick_raw
+                    ],
+                ),
+
+                # Fronteiras discretas e neutras
+                marker=dict(
+                    line=dict(
+                        color="rgba(255,255,255,0.55)",
+                        width=0.6,
+                    )
+                ),
+            )
+        )
+
+        # ========================================================
+        # APARÊNCIA GEOGRÁFICA
+        # ========================================================
+
+        fig.update_geos(
             projection_type="natural earth",
+
             showframe=False,
 
             showcoastlines=True,
@@ -956,35 +1079,125 @@ def page_geo():
 
             bgcolor="rgba(0,0,0,0)",
         )
+
+        # ========================================================
+        # LAYOUT
+        # ========================================================
+
         fig.update_layout(
-            title="Mapa mundial de registros", paper_bgcolor="rgba(0,0,0,0)",
-            plot_bgcolor="rgba(0,0,0,0)", margin=dict(l=0, r=0, t=55, b=0),
+            title="Mapa mundial de registros",
+
+            paper_bgcolor="rgba(0,0,0,0)",
+
+            plot_bgcolor="rgba(0,0,0,0)",
+
+            margin=dict(
+                l=0,
+                r=0,
+                t=55,
+                b=0,
+            ),
         )
-        show_fig(fig, 650)
-    st.caption("country_final é preservado; o dashboard usa country_current/country_canonical com nomenclatura atual quando a equivalência é inequívoca.")
+
+        show_fig(
+            fig,
+            650,
+        )
+
+    # ============================================================
+    # NOTAS DE NORMALIZAÇÃO
+    # ============================================================
+
+    st.caption(
+        "country_final é preservado; o dashboard usa "
+        "country_current/country_canonical com nomenclatura atual "
+        "quando a equivalência é inequívoca."
+    )
+
     if unmapped:
-        lost = countries_all.loc[countries_all["País"].isin(unmapped), "Registros"].sum()
+
+        lost = countries_all.loc[
+            countries_all["País"].isin(
+                unmapped
+            ),
+            "Registros",
+        ].sum()
+
         st.caption(
-            f"Fora do mapa por não terem código ISO atual: {', '.join(unmapped)} "
+            f"Fora do mapa por não terem código ISO atual: "
+            f"{', '.join(unmapped)} "
             f"({fmt_int(lost)} registros)."
         )
 
-    st.subheader("Diversidade taxonômica")
-    resolved = known(geo, "species_final")
-    diversity_all = (
-        resolved.groupby("country_canonical", observed=True)["species_final"].nunique()
-        .sort_values(ascending=False).rename_axis("País").reset_index(name="Espécies distintas")
+    # ============================================================
+    # DIVERSIDADE TAXONÔMICA POR PAÍS
+    # ============================================================
+
+    st.subheader(
+        "Diversidade taxonômica"
     )
-    diversity_all = decat(diversity_all)
+
+    resolved = known(
+        geo,
+        "species_final",
+    )
+
+    diversity_all = (
+        resolved
+        .groupby(
+            "country_canonical",
+            observed=True,
+        )["species_final"]
+        .nunique()
+        .sort_values(
+            ascending=False
+        )
+        .rename_axis(
+            "País"
+        )
+        .reset_index(
+            name="Espécies distintas"
+        )
+    )
+
+    diversity_all = decat(
+        diversity_all
+    )
+
     ranked_bar(
-        diversity_all, "País", "Espécies distintas", key="geo_diversity_n",
-        label="Países no gráfico de diversidade", color=COLORS[4],
+        diversity_all,
+        "País",
+        "Espécies distintas",
+        key="geo_diversity_n",
+        label="Países no gráfico de diversidade",
+        color=COLORS[4],
         title="Número de species_final distintos por país",
     )
 
-    with st.expander("Auditar country_final original × país canônico"):
-        audit = group_count(geo, ["country_final", "country_canonical"])
-        st.dataframe(audit.sort_values("Registros", ascending=False), hide_index=True, width="stretch")
+    # ============================================================
+    # AUDITORIA DOS NOMES DOS PAÍSES
+    # ============================================================
+
+    with st.expander(
+        "Auditar country_final original × país canônico"
+    ):
+
+        audit = group_count(
+            geo,
+            [
+                "country_final",
+                "country_canonical",
+            ],
+        )
+
+        st.dataframe(
+            audit.sort_values(
+                "Registros",
+                ascending=False,
+            ),
+            hide_index=True,
+            width="stretch",
+        )
 
 def page_time():
     st.header("Distribuição temporal")
