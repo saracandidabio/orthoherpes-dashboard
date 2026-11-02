@@ -12,7 +12,6 @@ REGRA: os DataFrames vêm de st.cache_resource e são compartilhados entre
 sessões. Nunca altere um DataFrame recebido; sempre derive um novo.
 """
 
-from datetime import datetime
 from html import escape
 import json
 from pathlib import Path
@@ -26,7 +25,7 @@ import streamlit as st
 
 import dashboard_lib as L
 
-APP_VERSION = "8.2.0"
+APP_VERSION = "8.2.1"
 from dashboard_lib import (
     INTEREST_ORDER, INTEREST_OTHER, CLUE_CLASS, Filters,
     available_columns, categorical_height, decat, fmt_int, fmt_pct,
@@ -2199,21 +2198,3 @@ PAGES = [
 ]
 active_page = st.navigation(PAGES, position="top")
 active_page.run()
-
-
-# ============================================================
-# RODAPÉ
-# ============================================================
-
-st.divider()
-files_info = []
-for _stem in ("records_dashboard", "cds_core"):
-    _path = L.find_table(DATA_DIR, _stem)
-    if _path:
-        files_info.append(f"{_path.name} ({datetime.fromtimestamp(_path.stat().st_mtime):%d/%m/%Y})")
-_sha = build_meta.get("sha256", {}) if isinstance(build_meta, dict) else {}
-_sha_short = ", ".join(f"{name}:{digest[:12]}…" for name, digest in _sha.items() if digest)
-st.caption(
-    f"v{APP_VERSION} • registros NCBI/GenBank ≠ prevalência biológica • "
-    f"Dados: {'; '.join(files_info)}" + (f" • SHA256: {_sha_short}" if _sha_short else "")
-)
