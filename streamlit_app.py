@@ -2020,41 +2020,41 @@ def page_dpol():
             flow["n"] = pd.to_numeric(flow["n"], errors="coerce")
             flow = flow.dropna(subset=["stage", "n"])
             flow = flow.loc[flow["n"].ge(0)].copy()
+            # Exibir somente a triagem exploratória até as candidatas suportadas.
+            # As etapas posteriores permanecem no arquivo de auditoria, fora do dashboard.
+            stages = {
+                "Universo inicial NCBI": "Universo inicial NCBI",
+                "Registros com DPOL anotada": "Registros com DNA POL anotada",
+                "Candidatos DPOL": "Candidatas DNA POL",
+                "Candidatos DPOL suportados": "Candidatas DNA POL suportadas",
+            }
+            flow = flow.loc[flow["stage"].isin(stages)].copy()
             if not flow.empty:
-                stage_aliases = {
-                    "Selecionados downstream": "Seleção exploratória",
-                    "Matriz final": "Matriz exploratória",
-                }
-                flow["Etapa"] = flow["stage"].replace(stage_aliases)
-                st.subheader("Síntese das etapas de triagem")
-                # Funil descritivo: alguns estágios contam acessos, outros candidatos.
+                flow["Etapa"] = flow["stage"].map(stages)
+                flow["ordem"] = flow["stage"].map({name: i for i, name in enumerate(stages)})
+                flow = flow.sort_values("ordem")
+                st.subheader("Triagem exploratória de DNA polimerase")
                 fig = go.Figure(go.Funnel(
                     y=flow["Etapa"], x=flow["n"],
                     textinfo="value", textposition="inside",
-                    marker=dict(color=["#28516B", "#346785", "#477F9A",
-                                       "#5D96A9", "#77A7B4", "#98B7BE"][:len(flow)]),
+                    marker=dict(color=["#28516B", "#346785", "#477F9A", "#5D96A9"][:len(flow)]),
                     connector=dict(line=dict(color="rgba(72,108,133,.26)", width=1)),
                     hovertemplate="<b>%{y}</b><br>n = %{x:,.0f}<extra></extra>",
                 ))
                 fig.update_layout(margin=dict(l=10, r=12, t=25, b=25), showlegend=False)
-                show_fig(fig, 540)
+                show_fig(fig, 450)
                 st.caption(
-                    "Contagens históricas de uma triagem exploratória. Os estágios "
-                    "reúnem unidades de contagem diferentes (registros e candidatos); "
-                    "por isso, a largura das barras não representa necessariamente "
-                    "perdas sucessivas de uma mesma população de sequências."
+                    "Triagem descritiva dos registros públicos até a identificação de candidatas "
+                    "DNA POL suportadas. Como os totais combinam registros e candidatos, "
+                    "não representam necessariamente perdas sequenciais."
                 )
-                with st.expander("Contagens originais e interpretação", expanded=False):
+                with st.expander("Quantitativos da triagem", expanded=False):
                     st.dataframe(
-                        flow[["stage", "n"]].rename(columns={
-                            "stage": "Etapa registrada", "n": "Quantidade"
-                        }), hide_index=True, width="stretch"
+                        flow[["Etapa", "n"]].rename(columns={"n": "Quantidade"}),
+                        hide_index=True, width="stretch"
                     )
-                    st.caption(
-                        "As etapas 'Selecionados downstream' e 'Matriz final' pertencem "
-                        "somente ao histórico desta exploração. Não se referem ao "
-                        "dataset filogenético da dissertação."
-                    )
+            else:
+                st.info("Não foram encontradas as etapas esperadas da triagem de DPOL.")
         else:
             st.info("O arquivo de curadoria não apresenta as colunas esperadas (stage, n).")
 
