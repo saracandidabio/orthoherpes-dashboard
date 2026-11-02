@@ -12,10 +12,8 @@ REGRA: os DataFrames vêm de st.cache_resource e são compartilhados entre
 sessões. Nunca altere um DataFrame recebido; sempre derive um novo.
 """
 
-from html import escape
 import json
 from pathlib import Path
-from urllib.parse import urlparse
 
 import numpy as np
 import pandas as pd
@@ -25,7 +23,7 @@ import streamlit as st
 
 import dashboard_lib as L
 
-APP_VERSION = "8.2.1"
+APP_VERSION = "8.3.0"
 from dashboard_lib import (
     INTEREST_ORDER, INTEREST_OTHER, CLUE_CLASS, Filters,
     available_columns, categorical_height, decat, fmt_int, fmt_pct,
@@ -43,48 +41,9 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# Estilo discreto para notas metodológicas, explicações e referências.
-# Usa variáveis do tema Streamlit para manter legibilidade nos modos claro/escuro.
-st.markdown(
-    """
-    <style>
-    .oh-note {padding: .65rem .9rem; margin: .35rem 0 .85rem;
-        border: 1px solid rgba(125,137,153,.25); border-left: 3px solid #4a86aa;
-        border-radius: .55rem; background: var(--secondary-background-color, #f4f6f8);
-        color: var(--text-color, #252b36); line-height: 1.48;}
-    .oh-note--care {border-left-color: #d49a3a;}
-    .oh-note--data {border-left-color: #4a9877;}
-    .oh-note__heading {font-size: .83rem; font-weight: 680; letter-spacing: .01em;
-        margin-bottom: .17rem;}
-    .oh-note__text {font-size: .89rem; overflow-wrap:anywhere;}
-    .oh-gene {border: 1px solid rgba(125,137,153,.20); border-radius: .6rem;
-        padding: .7rem .8rem; margin-bottom: .6rem;
-        background: var(--secondary-background-color, #f4f6f8);}
-    .oh-gene__title {font-weight: 700; font-size: .95rem; margin-bottom: .3rem;}
-    .oh-gene__text {font-size: .87rem; line-height: 1.5; overflow-wrap:anywhere;}
-    .oh-gene__refs {font-size: .8rem; margin-top: .4rem;}
-    .oh-gene__refs a {color: #378ab5; margin-right: .55rem;}
-    .oh-authors {font-size:.89rem; line-height:1.6;}
-    .oh-authors a {overflow-wrap:anywhere;}
-    @media (max-width: 640px) {
-      .oh-note {padding:.55rem .7rem;}
-      .oh-gene {padding:.55rem .7rem;}
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-
 def ui_note(title: str, message: str, tone: str = "context") -> None:
-    """Exibe nota breve, com texto escapado para evitar HTML vindo dos dados."""
-    modifier = {"context": "", "care": " oh-note--care", "data": " oh-note--data"}.get(tone, "")
-    st.markdown(
-        f'<div class="oh-note{modifier}">'
-        f'<div class="oh-note__heading">{escape(title)}</div>'
-        f'<div class="oh-note__text">{escape(message)}</div></div>',
-        unsafe_allow_html=True,
-    )
+    """Nota metodológica curta, integrada à tipografia nativa do Streamlit."""
+    st.caption(f"**{title}.** {message}")
 
 
 HERE = Path(__file__).resolve().parent
@@ -96,7 +55,7 @@ if (HERE / "DASHBOARD_DATASET_INICIAL" / "data").exists():
 else:
     DATA_DIR = HERE / "data"
 
-DPOL_HISTORICAL_FILE = DATA_DIR / "dpol_flow.tsv"  # Artefato legado, não usado na filogenia do estudo
+DPOL_EXPLORATORY_FILE = DATA_DIR / "dpol_flow.tsv"  # Curadoria exploratória, independente da filogenia
 INTEREST_FILE = DATA_DIR / "interest_summary.tsv"
 QUALITY_FILE = DATA_DIR / "metadata_quality.tsv"
 BUILD_AUDIT_FILE = DATA_DIR / "BUILD_AUDIT.txt"
@@ -193,6 +152,11 @@ def get_manifest(path_str: str, mtime_ns: int) -> dict:
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return {}
+
+
+@st.cache_data(show_spinner=False)
+def get_exploratory_dpol(path_str: str, mtime_ns: int) -> pd.DataFrame:
+    return pd.read_csv(path_str, sep="\t")
 
 
 @st.cache_resource
@@ -327,8 +291,8 @@ init_filters_from_query()
 
 st.sidebar.header("Filtros globais")
 st.sidebar.caption(
-    "Seleção vazia = todos. Os filtros se aplicam às análises do banco de dados. "
-    "A documentação filogenética é independente destes filtros."
+    "Seleção vazia = todos. Na página de DPOL, o funil histórico é global; "
+    "a busca por anotações respeita os filtros."
 )
 st.sidebar.button("Limpar filtros", on_click=reset_filters, width="stretch")
 
@@ -502,34 +466,16 @@ def show_gene_context_legend(gene_names):
 
     curated = raw[raw["ncbi_note"].fillna("").astype(str).str.strip().ne("")]
     if not curated.empty:
-        with st.expander(
-            f"Notas biológicas dos genes exibidos ({fmt_int(len(curated))})",
-            expanded=False,
-        ):
-            ui_note(
-                "Interpretação das anotações",
-                "A designação de genes UL/US não é universal entre os herpesvírus. "
-                "Consulte as referências para interpretar cada produto no contexto de seu táxon.",
-                "care",
+        with st.expander(f"Notas de anotação dos genes ({fmt_int(len(curated))})", expanded=False):
+            st.caption(
+                "As designações UL/US não têm função universal entre os herpesvírus. "
+                "As interpretações abaixo se baseiam nas anotações e fontes indicadas."
             )
-            left, right = st.columns(2, gap="medium")
-            for i, (_, row) in enumerate(curated.iterrows()):
-                gene = escape(str(row.get("gene", "")).strip())
-                note = escape(str(row.get("ncbi_note", "")).strip())
-                refs = str(row.get("reference_url", "")).strip()
-                links = []
-                for j, url in enumerate([x.strip() for x in refs.split("|") if x.strip()], start=1):
-                    parsed = urlparse(url)
-                    if parsed.scheme == "https" and parsed.hostname and (
-                        parsed.hostname == "ncbi.nlm.nih.gov" or parsed.hostname.endswith(".ncbi.nlm.nih.gov")
-                    ):
-                        links.append(f'<a href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">NCBI {j}</a>')
-                refs_html = f'<div class="oh-gene__refs">{"".join(links)}</div>' if links else ""
-                html = (
-                    f'<div class="oh-gene"><div class="oh-gene__title">{gene}</div>'
-                    f'<div class="oh-gene__text">{note}</div>{refs_html}</div>'
-                )
-                (left if i % 2 == 0 else right).markdown(html, unsafe_allow_html=True)
+            annotation_cols = [c for c in ("gene", "ncbi_note", "reference_url") if c in curated.columns]
+            annotations = curated[annotation_cols].rename(columns={
+                "gene": "Gene", "ncbi_note": "Anotação", "reference_url": "Fonte (NCBI)",
+            })
+            st.dataframe(annotations, hide_index=True, width="stretch")
 
     cols = [c for c in [
         "gene", "top_products", "top_herpes", "top_associations",
@@ -614,26 +560,24 @@ def search_form(key, label, placeholder):
 # ============================================================
 
 st.title("🧬 Orthoherpesviridae Dataset Explorer")
-st.caption("Dados públicos do NCBI/GenBank • taxonomia • distribuição • genes/CDS • hospedagem • contexto da DPOL")
-with st.expander("Sobre o projeto, autoria e fontes", expanded=False):
-    st.markdown(
-        """
-<div class="oh-authors">
+st.caption("NCBI/GenBank • taxonomia • hospedeiros • genes/CDS • curadoria exploratória de DPOL")
+st.markdown(
+    """
+<div style="padding:.75rem 1rem;border:1px solid rgba(86,180,233,.32);
+            border-radius:12px;background:rgba(0,114,178,.06);
+            margin:.25rem 0 .85rem;line-height:1.5;">
 <strong>Idealizado por Sara Cândida Ferreira dos Santos</strong><br>
-Mestranda em Bioinformática — UFMG · Bióloga — UFMG · Técnica em Biotecnologia — COLTEC/UFMG<br>
-<a href="http://lattes.cnpq.br/5384262726323885" target="_blank" rel="noopener noreferrer">Currículo Lattes</a>
-· <a href="https://www.linkedin.com/in/sara-cândida-santos/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-· <a href="mailto:saracandida@ufmg.br">Contato</a><br>
-<strong>Conjunto de dados:</strong> NCBI/GenBank, obtido em 21/09/2026.
+Mestranda em Bioinformática — UFMG<br>
+Bióloga — Universidade Federal de Minas Gerais<br>
+Técnica em Biotecnologia — COLTEC/UFMG<br>
+Currículo Lattes: <a href="http://lattes.cnpq.br/5384262726323885" target="_blank" rel="noopener noreferrer">http://lattes.cnpq.br/5384262726323885</a><br>
+LinkedIn: <a href="https://www.linkedin.com/in/sara-cândida-santos/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/sara-cândida-santos/</a><br>
+E-mail: <a href="mailto:saracandida@ufmg.br">saracandida@ufmg.br</a><br>
+<small>Dados públicos obtidos do NCBI/GenBank em 21/09/2026.</small>
 </div>
-        """,
-        unsafe_allow_html=True,
-    )
-    ui_note(
-        "Escopo científico",
-        "Os registros públicos permitem explorar a representação de sequências depositadas, "
-        "não estimar diretamente prevalência, frequência de infecção ou diversidade real na natureza.",
-    )
+    """,
+    unsafe_allow_html=True,
+)
 
 m1, m2, m3, m4 = st.columns(4)
 m1.metric("Registros no dataset", fmt_int(len(records)))
@@ -2057,63 +2001,69 @@ def page_provenance():
 
 
 def page_dpol():
-    st.header("DPOL e contexto das análises filogenéticas")
-    ui_note(
-        "Atenção ao escopo",
-        "A antiga sequência de etapas intitulada 'Selecionados downstream' e 'Matriz final' "
-        "era parte de uma exploração alternativa e não foi utilizada para construir "
-        "a filogenia da dissertação. Por isso, aquele funil foi retirado do dashboard.",
-        "care",
+    st.header("DPOL | Curadoria exploratória")
+    st.write(
+        "Levantamento descritivo das anotações de DNA polimerase (DPOL) nos registros "
+        "públicos do NCBI/GenBank. As etapas apresentadas pertencem a uma abordagem "
+        "exploratória independente e **não correspondem ao conjunto utilizado na "
+        "análise filogenética da dissertação**."
     )
+    st.caption("Os totais do funil são globais e não mudam com os filtros laterais.")
 
-    st.subheader("Dados públicos × análise filogenética do estudo")
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Registros do GenBank", fmt_int(len(records)))
-    c2.metric("CDS anotadas no banco", fmt_int(_total_cds) if _total_cds else "—")
-    c3.metric("Versão do banco", str(dataset_manifest.get("dashboard_data_version", "8.1.0")))
-    ui_note(
-        "Conjuntos distintos",
-        "O conjunto exploratório do NCBI mostrado neste site não é equivalente à matriz "
-        "de alinhamento usada na filogenia. Os números acima não representam o tamanho "
-        "da matriz filogenética nem os resultados de curadoria efetivamente utilizados.",
-    )
+    if not DPOL_EXPLORATORY_FILE.exists():
+        st.info("O histórico de curadoria exploratória não está disponível nesta instalação.")
+    else:
+        flow = get_exploratory_dpol(
+            str(DPOL_EXPLORATORY_FILE), DPOL_EXPLORATORY_FILE.stat().st_mtime_ns
+        ).copy()
+        if {"stage", "n"}.issubset(flow.columns):
+            flow["n"] = pd.to_numeric(flow["n"], errors="coerce")
+            flow = flow.dropna(subset=["stage", "n"])
+            flow = flow.loc[flow["n"].ge(0)].copy()
+            if not flow.empty:
+                stage_aliases = {
+                    "Selecionados downstream": "Seleção exploratória",
+                    "Matriz final": "Matriz exploratória",
+                }
+                flow["Etapa"] = flow["stage"].replace(stage_aliases)
+                st.subheader("Síntese das etapas de triagem")
+                # Funil descritivo: alguns estágios contam acessos, outros candidatos.
+                fig = go.Figure(go.Funnel(
+                    y=flow["Etapa"], x=flow["n"],
+                    textinfo="value", textposition="inside",
+                    marker=dict(color=["#28516B", "#346785", "#477F9A",
+                                       "#5D96A9", "#77A7B4", "#98B7BE"][:len(flow)]),
+                    connector=dict(line=dict(color="rgba(72,108,133,.26)", width=1)),
+                    hovertemplate="<b>%{y}</b><br>n = %{x:,.0f}<extra></extra>",
+                ))
+                fig.update_layout(margin=dict(l=10, r=12, t=25, b=25), showlegend=False)
+                show_fig(fig, 540)
+                st.caption(
+                    "Contagens históricas de uma triagem exploratória. Os estágios "
+                    "reúnem unidades de contagem diferentes (registros e candidatos); "
+                    "por isso, a largura das barras não representa necessariamente "
+                    "perdas sucessivas de uma mesma população de sequências."
+                )
+                with st.expander("Contagens originais e interpretação", expanded=False):
+                    st.dataframe(
+                        flow[["stage", "n"]].rename(columns={
+                            "stage": "Etapa registrada", "n": "Quantidade"
+                        }), hide_index=True, width="stretch"
+                    )
+                    st.caption(
+                        "As etapas 'Selecionados downstream' e 'Matriz final' pertencem "
+                        "somente ao histórico desta exploração. Não se referem ao "
+                        "dataset filogenético da dissertação."
+                    )
+        else:
+            st.info("O arquivo de curadoria não apresenta as colunas esperadas (stage, n).")
 
-    st.subheader("Etapas documentadas para a análise filogenética")
-    st.markdown(
-        "O procedimento filogenético foi realizado fora deste repositório, com um conjunto "
-        "de referências de DPOL previamente selecionado e alinhado. As sequências consenso "
-        "obtidas no estudo foram incorporadas ao alinhamento de referência com **MAFFT**, "
-        "seguido de inferência filogenética com **IQ-TREE 3**."
+    st.subheader("Consulta às anotações de DNA polimerase")
+    st.caption(
+        "Busca textual independente nos campos de gene e produto das CDS. "
+        "O resultado é descritivo, não uma validação funcional ou taxonômica."
     )
-    with st.expander("Parâmetros dos comandos registrados no projeto", expanded=False):
-        st.caption(
-            "Estes comandos documentam a configuração informada durante o desenvolvimento "
-            "do estudo; os arquivos originais de execução e a matriz final não estão "
-            "incluídos neste repositório. Confira-os antes de citar na dissertação."
-        )
-        st.code(
-            'mafft \\\n  --addfragments todas_sequencias_herpes_consensos_PASS.fasta \\\n  --anysymbol \\\n  --thread 8 \\\n  VANDEVANTER_PIPELINE_V7_CORRIGIDO_aln_edt_aln.fasta \\\n  > dataset_clean_allHerpes_consensos_aln.fasta',
-            language="bash",
-        )
-        st.code(
-            'iqtree3 \\\n  -s dataset_clean_allHerpes_consensos_aln.fasta \\\n  -m MFP -B 1000 --alrt 1000 \\\n  -T 7 -seed 12345 \\\n  --prefix DPOL_IQTREE',
-            language="bash",
-        )
-        ui_note(
-            "Interpretação dos suportes",
-            "Os suportes UFBoot (1.000 replicações) e SH-aLRT (1.000 replicações) "
-            "avaliam a estabilidade dos ramos conforme seus respectivos testes; "
-            "não substituem a inspeção do alinhamento e da composição do dataset.",
-            "data",
-        )
-
-    st.subheader("Exploração independente de anotações de DNA polimerase")
-    st.markdown(
-        "É possível localizar registros que mencionam 'DNA polymerase' nos campos "
-        "de gene, produto e sinônimos. Esta busca descritiva **não reproduz** a seleção "
-        "ou a curadoria das sequências usadas na árvore."
-    )
-    if st.checkbox("Carregar e explorar anotações de DNA polimerase", value=False, key="dpol_explore"):
+    if st.checkbox("Pesquisar anotações de DPOL no conjunto filtrado", value=False, key="dpol_explore"):
         cds_data = current_cds()
         cols = [x for x in ("gene", "gene_synonym", "product") if x in cds_data.columns]
         mask = pd.Series(False, index=cds_data.index)
@@ -2124,13 +2074,7 @@ def page_dpol():
         annotated = cds_data.loc[mask].copy()
         d1, d2 = st.columns(2)
         d1.metric("CDS com menção textual", fmt_int(len(annotated)))
-        d2.metric("Accessions distintos", fmt_int(annotated["accession_version"].nunique()))
-        ui_note(
-            "Limite dessa busca",
-            "A pesquisa textual não identifica todas as DPOL possíveis e pode incluir "
-            "anotações ambíguas. Os valores são apenas descritivos do banco filtrado.",
-            "care",
-        )
+        d2.metric("Acessos distintos", fmt_int(annotated["accession_version"].nunique()))
         if len(annotated):
             keep_cols = available_columns(annotated, [
                 "accession_version", "species_final", "organism", "gene",
@@ -2138,7 +2082,7 @@ def page_dpol():
             ])
             st.dataframe(annotated[keep_cols].head(1000), hide_index=True, width="stretch")
             deferred_download(
-                "Baixar anotações textuais de DNA polimerase",
+                "Baixar registros com menção a DNA polimerase",
                 lambda: annotated[keep_cols],
                 "dpol_annotation_search", "dl_dpol_text", extra="dpol_annotation_text",
             )
@@ -2193,7 +2137,7 @@ PAGES = [
     st.Page(page_compare, title="Comparação de proteínas", icon="🧬", url_path="comparacao"),
     st.Page(page_quality, title="Qualidade", icon="✅", url_path="qualidade"),
     st.Page(page_provenance, title="Proveniência e NCBI", icon="🔐", url_path="proveniencia"),
-    st.Page(page_dpol, title="DPOL e filogenia", icon="🧬", url_path="dpol"),
+    st.Page(page_dpol, title="DPOL exploratória", icon="🧬", url_path="dpol"),
     st.Page(page_records, title="Registros", icon="📋", url_path="registros"),
 ]
 active_page = st.navigation(PAGES, position="top")
